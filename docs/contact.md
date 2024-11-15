@@ -3,6 +3,8 @@ title: "Contact"
 hide:
   - navigation
   - toc
+tags:
+  - :system_document
 ---
 
 <div class="hero">
@@ -12,6 +14,16 @@ The domain is owned by VSB – Technical University of Ostrava, 17. listopadu 15
 </div>
 
 # Contact
+
+```yaml
+Author: :team_jirihylmar
+Created: 2024-11-12 09:00:00
+Updated: 2024-11-15 10:07:38
+Master: mkdocs
+Contributors: :team_vsb, :team_mai
+Purpose:
+- The official contacts boiler plate.
+```
 
 ## Contact Details
 

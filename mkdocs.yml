@@ -1,5 +1,5 @@
 site_name: ZONEIOT
-site_url: https://main.d3mzmv7u6qg7cc.amplifyapp.com/
+site_url: https://main.dph7uvak04lpm.amplifyapp.com/
 site_author: Jiří Hylmar
 site_description: ZONEIOT project website.
 
@@ -165,6 +165,7 @@ extra:
 
 nav:
   - ZONEIOT: index.md
+  - TODO: todo.md
   - GOVERNANCE:
     - ZONEIOT Návrh projektu RO: governance/zoneiot_navrh_projektu_ro.md
     - ZONEIOT Accounts: governance/zoneiot_accounts.md
@@ -174,6 +175,7 @@ nav:
     - Limits Calculation Power Consumption RO: development/limits_calculations_power_consumption.md
   - DICTIONARY: dictionary.md
   - TAGS: tags.md
-  - LINK: links.md
+  - LINKS: links.md
+  - STAT: statistics.md
   - CONTACT: contact.md
-  - TEST: test.md
+  - TEMPLATE: template.md

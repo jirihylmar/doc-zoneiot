@@ -6,18 +6,18 @@ tags:
 
 # ZONEIOT Accounts
 
-## Introduction
-
-Author: @team_jirihylmar
-Created: 2024-11-14 12:26:03
-Updated: 2024-11-14 12:26:15
-Document master: mkdocs
+```yaml
+Author: :team_jirihylmar
+Created: 2024-11-12 11:00:00
+Updated: 2024-11-15 09:52:14
+Master: mkdocs
+Contributors: :team_jirihylmar
+Purpose:
+- Overview of all ZONEIOT resources in the single place.
+```
 
 ???+ warning "RELATED RESOURCES"
 	- [Dictionary](dictionary.md#dictionary) *refDoc*
-
-The purpose of the document
-- keep overview of the core resources on the single page
 
 ## Implementation
 

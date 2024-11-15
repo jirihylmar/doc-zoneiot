@@ -6,22 +6,20 @@ tags:
 
 # Dictionary
 
-## Introduction
-
+```yaml
 Author: :team_jirihylmar
 Created: 2024-11-14 11:32:01
-Updated: 2024-11-14 11:32:40
-
-???+ warning "RELATED RESOURCES"
-	- `~/hyl-zoneiot/src/extract_snippets_from_tags.py`
-
-The purpose of the document
+Updated: 2024-11-15 10:29:58
+Master: mkdocs
+Contributors: :team_vsb, :team_mai
+Purpose:
 - establish project dictionary
 - enable concise resource tagging with snippets
 - automate reporting of the `ZONEIOT` project.
+```
 
-The document's master is maintained in `mkdoc`.
-
+???+ warning "RELATED RESOURCES"
+	- `~/hyl-zoneiot/src/extract_snippets_from_tags.py`
 
 ## Notes
 
@@ -34,7 +32,11 @@ The document's master is maintained in `mkdoc`.
 
 ## Team Members
 
-Team members are named ar unnamed. Unnamed are flexible possitions
+Team members are named or unnamed. Unnamed are flexible positions.
+
+- [ ] TODO :org_mai Fri Nov 15 07:26:51 CEST 2024 nominate unnamed positions
+- [ ] TODO :org_vsb Fri Nov 15 07:26:51 CEST 2024 nominate unnamed positions
+
 Table: Team Members
 
 | Name | Mobile Phone | Email | Name Tag | Organization Tag | Role |
@@ -86,14 +88,19 @@ Table: Planned Project Activities
 
 Project tasks are flexible, but they always have to belong to the pro project activity.
 
+Maintenance is done by project managers :org_mai and :org_vsb. Keeping `activity_master_code` the rule. Think twice before introducing `activity_code` and `activity_tag`.
+
+- [ ] TODO :team_jirihylmar Fri Nov 15 06:46:35 CEST 2024 expand a content of deliverables for the initial testing phase.
+
 Table: Planned Project Tasks
 
 | activity_master_code | activity_code | activity_tag | activity_name | activity_description | responsibility_person_tag | responsibility_organization_tag | time_planned | time_executed |
 |---------------------|---------------|--------------|---------------|---------------------|--------------------------|--------------------------------|--------------|---------------|
 | DC01 | T01_A | :task_iot_market_landscape | IoT Market Landscape | Available technical solutions, vendors, market trend | | :org_vsb | 202501 | |
 | DC01 | T01_B | :task_data_sources_analysis | Data Sources Analysis | Analysis and documentation of data collection systems | | :org_vsbtuo | 202501 | |
-| DC01 | T01_C | :task_tech_evaluation | Technology Evaluation | Testing LoRa and GSM for Back Office communication | | :org_vsbtuo | 202502 | |
-| DC01 | T01_D | :task_interface_definition | Interface Definition | System interface specification and documentation | | :org_vsbtuo | 202503 | |
+| DC01 | T01_C | :task_iot_options_examples | IoT Options Examples | Minimal operation of considered IoT systems and method. Controlled and reproducible deployments. | | :org_vsbtuo | 202501 | |
+| DC01 | T01_D | :task_connection_technology_evaluation | Connection Technology Evaluation | Testing LoRa and GSM for Back Office communication | | :org_vsbtuo | 202502 | |
+| DC01 | T01_E | :task_input_interface_definition | Input Interface Definition | System interface specification and documentation | | :org_vsbtuo | 202503 | |
 | DC02 | T02_A | :task_iot_core_dev | IoT Core Development | Development of device authentication and communication | | :org_vsbtuo | 202502 | |
 | DC02 | T02_B | :task_data_structure | Data Structure Design | IoT information storage and dictionary preparation | | :org_vsbtuo | 202503 | |
 | DC02 | T02_C | :task_event_automation | Event Automation | Development of event processing automation | | :org_vsbtuo | 202504 | |
@@ -123,6 +130,8 @@ Table: Planned Project Tasks
 
 
 ## Deliverables
+
+Deliverables are fixed.
 
 :result_1_monitoring_device_gfunk
 ```json
@@ -183,5 +192,7 @@ Table: Planned Project Tasks
 ```
 
 ## System
+
+System tags are flexible.
 
 :system_document

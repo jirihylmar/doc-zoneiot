@@ -6,6 +6,18 @@ tags:
 
 # ZONEIOT Návrh Projektu
 
+```yaml
+Author: :team_jirihylmar
+Created: 2024-11-12 08:00:00
+Updated: 2024-11-15 09:45:52
+Master: ¬/hyl-zoneiot/src/zoneiot_navrh_projektu/zoneiot_navrh_projektu.md
+Contributors: :team_jirihylmar
+Purpose:
+- Machine readable version of the original project proposal
+- Language CS will translate to EN for automation
+- Part of the document will serve for LLM assistants and project setup
+```
+
 Table: Informace k projektu
 
 | Položka | Obsah |

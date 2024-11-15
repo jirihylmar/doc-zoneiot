@@ -80,10 +80,29 @@ cat "${TEMP_DIR}/names.txt" | \
 } > "${TEMP_DIR}/sorted_links.txt"
 
 # Create final output with header
+#{
+#    echo "# Links"
+#    echo
+#    cat "${TEMP_DIR}/sorted_links.txt"
+#} > "${OUTPUT_FILE}"
+
 {
     echo "# Links"
     echo
-    cat "${TEMP_DIR}/sorted_links.txt"
+    cat << 'EOF'
+```yaml
+Author: :team_jirihylmar
+Created: 2024-11-14 14:00:00
+Updated: 1970-01-01 00:00:00
+Master: mkdocs
+Purpose:
+- Helper to include reference links to documentation's chapters.
+```
+EOF
+
+echo
+
+cat "${TEMP_DIR}/sorted_links.txt"
 } > "${OUTPUT_FILE}"
 
 echo "Links generated successfully at: ${OUTPUT_FILE}"

@@ -1,5 +1,14 @@
 # Links
 
+```yaml
+Author: :team_jirihylmar
+Created: 2024-11-14 14:00:00
+Updated: 1970-01-01 00:00:00
+Master: mkdocs
+Purpose:
+- Helper to include reference links to documentation's chapters.
+```
+
 [Contact](contact.md#contact) *refDoc*
 [Contact Details](contact.md#contact-details) *refDoc*
 [Battery Configuration](development/limits_calculations_power_consumption.md#battery-configuration) *refDoc*
@@ -12,17 +21,17 @@
 [Power Consumption Analysis](development/limits_calculations_power_consumption.md#power-consumption-analysis) *refDoc*
 [Time Distribution](development/limits_calculations_power_consumption.md#time-distribution) *refDoc*
 [Traffic Scenarios Analysis](development/limits_calculations_power_consumption.md#traffic-scenarios-analysis) *refDoc*
-[1. Storage Capacity Analysis](development/limits_calculations_storage_and_motion.md#1-storage-capacity-analysis) *refDoc*
-[2. Motion Analysis](development/limits_calculations_storage_and_motion.md#2-motion-analysis) *refDoc*
 [Current Speed Analysis (30.0 km/h)](development/limits_calculations_storage_and_motion.md#current-speed-analysis-(30.0-km/h)) *refDoc*
 [Image Configuration](development/limits_calculations_storage_and_motion.md#image-configuration) *refDoc*
 [Image Size](development/limits_calculations_storage_and_motion.md#image-size) *refDoc*
 [LImits Calculation Storage and Motion](development/limits_calculations_storage_and_motion.md#limits-calculation-storage-and-motion) *refDoc*
+[Motion Analysis](development/limits_calculations_storage_and_motion.md#motion-analysis) *refDoc*
 [Motion Configuration](development/limits_calculations_storage_and_motion.md#motion-configuration) *refDoc*
 [Speed Scenario Analysis](development/limits_calculations_storage_and_motion.md#speed-scenario-analysis) *refDoc*
 [Storage Capacity](development/limits_calculations_storage_and_motion.md#storage-capacity) *refDoc*
+[Storage Capacity Analysis](development/limits_calculations_storage_and_motion.md#storage-capacity-analysis) *refDoc*
 [Storage Configuration](development/limits_calculations_storage_and_motion.md#storage-configuration) *refDoc*
-[chip-OS combinations](development/zoneiot_market_landscape_ro.md#chip-os-combinations) *refDoc*
+[CHIP-OS combinations](development/zoneiot_market_landscape_ro.md#chip-os-combinations) *refDoc*
 [Development Environment Complexity](development/zoneiot_market_landscape_ro.md#development-environment-complexity) *refDoc*
 [Introduction](development/zoneiot_market_landscape_ro.md#introduction) *refDoc*
 [Manufacturing Country of Origin Analysis](development/zoneiot_market_landscape_ro.md#manufacturing-country-of-origin-analysis) *refDoc*
@@ -37,14 +46,12 @@
 [ZONEIOT Market Landscape](development/zoneiot_market_landscape_ro.md#zoneiot-market-landscape) *refDoc*
 [Deliverables](dictionary.md#deliverables) *refDoc*
 [Dictionary](dictionary.md#dictionary) *refDoc*
-[Introduction](dictionary.md#introduction) *refDoc*
 [Notes](dictionary.md#notes) *refDoc*
 [Planned Project Activities](dictionary.md#planned-project-activities) *refDoc*
 [Planned Project Tasks](dictionary.md#planned-project-tasks) *refDoc*
 [System](dictionary.md#system) *refDoc*
 [Team Members](dictionary.md#team-members) *refDoc*
 [Implementation](governance/zoneiot_accounts.md#implementation) *refDoc*
-[Introduction](governance/zoneiot_accounts.md#introduction) *refDoc*
 [Preparation](governance/zoneiot_accounts.md#preparation) *refDoc*
 [ZONEIOT Accounts](governance/zoneiot_accounts.md#zoneiot-accounts) *refDoc*
 [Analýza rizik](governance/zoneiot_navrh_projektu_ro.md#analyza-rizik) *refDoc*
@@ -194,5 +201,10 @@
 [Způsob vykazování nepřímých nákladů](governance/zoneiot_navrh_projektu_ro.md#zpusob-vykazovani-neprimych-nakladu) *refDoc*
 [ZONEIOT](index.md#zoneiot) *refDoc*
 [Links](links.md#links) *refDoc*
+[Page](page.md#page) *refDoc*
+[Statistics](statistics.md#statistics) *refDoc*
 [Tags](tags.md#tags) *refDoc*
-[Test page](test.md#test-page) *refDoc*
+[Purpose of `mkdoc` concept](template.md#purpose-of-mkdoc-concept) *refDoc*
+[Structure of the raw page in `mkdocs`](template.md#structure-of-the-raw-page-in-mkdocs) *refDoc*
+[Template](template.md#template) *refDoc*
+[TODO](todo.md#todo) *refDoc*

@@ -7,7 +7,7 @@ tags:
 
 # LImits Calculation Storage and Motion
 
-## 1. Storage Capacity Analysis
+## Storage Capacity Analysis
 
 ### Image Configuration
 - Resolution: 320x240
@@ -28,7 +28,7 @@ tags:
 - Recording Duration at 15 fps: 7.5 hours (0.3 days)
 - Recording Duration at 30 fps: 3.7 hours (0.2 days)
 
-## 2. Motion Analysis
+## Motion Analysis
 
 ### Motion Configuration
 - Frame Rate: 15 fps

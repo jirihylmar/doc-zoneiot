@@ -1,21 +1,19 @@
 ---
-title: "hyl-zoneiot | Readmes"
+title: "doc-zoneiot"
 ---
 
-# hyl-zoneiot
+# doc-zoneiot
 
 ## Maintenance
 
-Manipulate and update with
-- . ~/hyl-zoneiot/src/updateReadmes.sh
-- code ~/hyl-zoneiot/mkdocs.yml
-
-- Git: https://github.com/jirihylmar/hyl-zoneiot.git
-- Location: `~/hyl-zoneiot/README.md`
+- Git: https://github.com/jirihylmar/doc-zoneiot.git
+- Location: `~/doc-zoneiot/README.md`
 
 ## Change Log
 
-OPENED @hylmarj Wed Nov 13 12:00:12 CEST 2024 commnet
+OPENED :jirihylmar Fri Nov 15 10:39:23 CEST 2024 yaml structure
+
+OPENED :jirihylmar Wed Nov 13 12:00:12 CEST 2024 established
 
 ## MkDocs Implementation
 
@@ -25,14 +23,13 @@ OPENED @hylmarj Wed Nov 13 12:00:12 CEST 2024 commnet
 
 **access**
 
-https://main.d3mzmv7u6qg7cc.amplifyapp.com/
+https://main.dph7uvak04lpm.amplifyapp.com/
 
 **run local**
 
 ```bash
 docker run --rm -it -p 8000:8000 -v ${PWD}:/docs danse4mobility/mkdocs-material:latest
 ```
-
 
 ```bash
 # get and kill running
@@ -48,26 +45,18 @@ docker exec -it <container_name_or_id> sh
 creates, updates links, opens them in vs code
 
 ```sh
-bash /home/hylmarj/hyl-zoneiot/src/createReferenceLinks.sh
+bash /home/hylmarj/doc-zoneiot/src/createReferenceLinks.sh
 ```
 
-creates TODO list
+## Docker Build Local
 
-https://stackoverflow.com/questions/1251999/how-can-i-replace-a-newline-n-using-sed
-
-```sh
-cd $HOME/hyl-zoneiot/docs/; printf "# TODO (root)\n\n\`\`\`\n grep ^./ ~/hyl-zoneiot/docs/todo.md\n\`\`\`\n\n----\n\n" > todo.md; grep -nr "TODO @" . | sed ':a;N;$!ba;s/\n/\n\n----\n\n/g' >> todo.md
-```
-
-## Docker Build
-
-1. Create a new clean directory
+**Create a new clean directory**
 
 ```bash
 mkdir -p ~/mkdocs-new && cd ~/mkdocs-new
 ```
 
-2. Create Dockerfile
+**Create Dockerfile**
 
 ```bash
 cat > Dockerfile << 'EOF'
@@ -122,7 +111,26 @@ CMD ["serve"]
 EOF
 ```
 
-# Create minimal Amplify configuration
+**Build the Docker image**
+
+```bash
+docker build -t danse4mobility/mkdocs-material:latest .
+```
+
+Test the build
+
+```bash
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs danse4mobility/mkdocs-material
+```
+
+If everything works, tag and push
+
+```bash
+docker login
+docker push danse4mobility/mkdocs-material:latest
+```
+
+## Amplify Build
 
 ```bash
 cat > amplify.yml << 'EOF'
@@ -144,25 +152,4 @@ frontend:
 EOF
 ```
 
-# Build the Docker image
-
-```bash
-docker build -t danse4mobility/mkdocs-material:latest .
-```
-
-Test the build
-
-```bash
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs danse4mobility/mkdocs-material
-```
-
-If everything works, tag and push
-
-```bash
-docker login
-docker push danse4mobility/mkdocs-material:latest
-```
-
-# Settings Amplify
-
-
+Authorize on amplify, follow instructions.
