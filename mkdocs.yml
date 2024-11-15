@@ -1,0 +1,179 @@
+site_name: ZONEIOT
+site_url: https://main.d3mzmv7u6qg7cc.amplifyapp.com/
+site_author: Jiří Hylmar
+site_description: ZONEIOT project website.
+
+# Repository
+repo_name: doc-zoneiot
+repo_url: https://github.com/jirihylmar/doc-zoneiot
+
+# Copyright
+copyright: Copyright by VSB – Technical University of Ostrava. All Rights Reserved. Read our <a href='https://www.vsb.cz/en/university/official-notice-board/processing-of-personal-data/' target='_blank'>Privacy Policy</a>.
+
+theme:
+  name: material
+  custom_dir: 'docs/theme'
+  language: en
+  favicon: theme/favicon-32x32.png
+  logo: theme/vsb_cs_white.svg
+  
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: lime
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.top
+    - header.autohide
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+      dataset: octicons/question-16
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - def_list
+  - meta
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.progressbar
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+
+# JavaScript and CSS
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+
+extra_css:
+  - https://use.fontawesome.com/releases/v6.4.2/css/all.css
+  - stylesheets/extra.css
+
+# Plugin Configuration
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - include-markdown
+  - git-revision-date
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [.]
+          options:
+            show_source: true
+  - tags:
+      tags_file: tags.md
+  - bibtex:
+      bib_file: assets/master_bibtex.bib
+      bib_command: plain
+  # print-site must be last as per warning
+#  - print-site:
+#      add_to_navigation: true
+#      print_page_title: 'Print Site'
+#      add_print_site_banner: false
+#      add_table_of_contents: true
+#      toc_title: 'Table of Contents'
+#      toc_depth: 3
+#      add_full_urls: true
+#      enumerate_headings: true
+#      enumerate_figures: true
+#      add_cover_page: true
+#      enabled: true
+
+use_directory_urls: true
+
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jirihylmar
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
+  version:
+    provider: mike
+
+nav:
+  - ZONEIOT: index.md
+  - GOVERNANCE:
+    - ZONEIOT Návrh projektu RO: governance/zoneiot_navrh_projektu_ro.md
+    - ZONEIOT Accounts: governance/zoneiot_accounts.md
+  - DEVELOPMENT:
+    - ZONEIOT Market Landscape  RO: development/zoneiot_market_landscape_ro.md
+    - LImits Calculation Storage and Motion RO: development/limits_calculations_storage_and_motion.md
+    - Limits Calculation Power Consumption RO: development/limits_calculations_power_consumption.md
+  - DICTIONARY: dictionary.md
+  - TAGS: tags.md
+  - LINK: links.md
+  - CONTACT: contact.md
+  - TEST: test.md

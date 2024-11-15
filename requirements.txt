@@ -1,0 +1,10 @@
+-e git+https://github.com/squidfunk/mkdocs-material.git@8.5.11#egg=mkdocs-material
+mkdocs-git-revision-date-plugin
+mkdocs-git-revision-date-localized-plugin
+git+https://github.com/aleksan4eg/markdown-lightbox.git
+boto3
+mkdocstrings
+mkdocs-include-markdown-plugin
+mkdocs-gen-files
+mkdocs-bibtex
+mkdocs-print-site-plugin

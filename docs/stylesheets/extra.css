@@ -1,0 +1,29 @@
+code {
+	white-space : pre-wrap !important;
+  }
+
+.md-typeset h1,
+.md-content__button {
+  display: none;
+}
+.hero {
+  background: #FFD2B5;
+  border: 0;
+  box-shadow: none;
+  color: black;
+}
+.hero_item {
+  padding: 15px;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+.md-main__inner {
+  margin-top: 0px;
+}
+.md-tabs__link {
+  font-size: 0.8rem;
+}
+
+.md-content {
+	--md-typeset-a-color: orange;
+  }
