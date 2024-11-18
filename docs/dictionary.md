@@ -19,7 +19,7 @@ Purpose:
 ```
 
 ???+ warning "RELATED RESOURCES"
-	- `~/hyl-zoneiot/src/extract_snippets_from_tags.py`
+	- `~/doc-zoneiot/extract_snippets_from_dictionary.py`
 
 ## Notes
 
