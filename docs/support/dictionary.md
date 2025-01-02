@@ -35,7 +35,7 @@ Purpose:
 Team members are named or unnamed. Unnamed are flexible positions.
 
 - [ ] TODO :org_mai Fri Nov 15 07:26:51 CEST 2024 nominate unnamed positions
-- [ ] TODO :org_vsb Fri Nov 15 07:26:51 CEST 2024 nominate unnamed positions
+- [x] TODO :org_vsb Fri Nov 15 07:26:51 CEST 2024 nominate unnamed positions
 
 Table: Team Members
 
@@ -48,6 +48,7 @@ Table: Team Members
 | Lukáš Kapičák | +420731663275 | lukas.kapicak@vsb.cz | :team_lukaskapicak | :org_vsb | Assistant |
 | Jiří Hylmar | +420736504011 | jiri.hylmar@vsb.cz | :team_jirihylmar | :org_vsb | Research Developer |
 | Miroslav Vozňák | +420603565965 | miroslav.voznak@vsb.cz | :team_miroslavvoznak | :org_vsb | Professor |
+| Martin Lysek | - | martin.lysek.st@vsb.cz | :team_martinlysek | :org_vsb | Embedded Systems Developer |
 | [Unnamed 1] | - | - | :team_productspec | :org_mai | Product Specialist |
 | [Unnamed 2] | - | - | :team_hwspec | :org_mai | Hardware Specialist |
 | [Unnamed 3] | - | - | :team_servicetech | :org_mai | Service Technician |
@@ -63,24 +64,24 @@ Table: Planned Project Activities
 
 | DC | Name and Description | Responsibility | Cooperation | End Date |
 |----|---------------------|----------------|-------------|-----------|
-| DC01 | Analysis of data sources, their collection possibilities and integration into database environment. Testing usability of available technologies (LoRa, GSM) for Back Office communication. Will include definition of system input interfaces. | VSB | MAI | 1/4 year |
-| DC02 | IoT core development. Includes authorized device communication, preparation of dictionaries and information storage structures, IoT device configuration system. Includes development of automation working sequences for acceptance, confirmation and event processing. | VSB | MAI | 3/4 year |
-| DC03 | Creation of system analysis, system architecture, process analysis | MAI | VSB | 1/4 year |
-| DC04 | Database preparation and machine learning algorithms - learning process testing. Scene definition, creation of ML/AI model recognition algorithms. | VSB | MAI | 4/4 year |
+| **DC01** | Analysis of data sources, their collection possibilities and integration into database environment. Testing usability of available technologies (LoRa, GSM) for Back Office communication. Will include definition of system input interfaces. | VSB | MAI | 1/4 year |
+| **DC02** | IoT core development. Includes authorized device communication, preparation of dictionaries and information storage structures, IoT device configuration system. Includes development of automation working sequences for acceptance, confirmation and event processing. | VSB | MAI | 3/4 year |
+| **DC03** | Creation of system analysis, system architecture, process analysis | MAI | VSB | 1/4 year |
+| **DC04** | Database preparation and machine learning algorithms - learning process testing. Scene definition, creation of ML/AI model recognition algorithms. | VSB | MAI | 4/4 year |
 | DC05 | Legal analysis of camera footage usability for claiming damages on road infrastructure elements. For this DC we will use subcontracting from a respected company dealing with this issue. | MAI | - | 4/4 year |
-| DC06 | Assignment of specific scenarios and use cases for work site monitoring. Activities will include selection and procurement of HW components for microcontroller and smart base for directional board | MAI | VSB | 1/2 year |
+| DC06 | Assignment of specific scenarios and use cases for work site monitoring. Activities will include selection and procurement of HW components for micro-controller and smart base for directional board | MAI | VSB | 1/2 year |
 | DC07 | Preparation of datasets (training set, validation set, test set) according to set requirements of chosen machine learning methods. Includes preparation of possible configurations of temporary traffic signs and their correct and faulty (damaged variants). Data will be captured at selected workplaces under various conditions to create representative datasets for model training. | VSB | MAI | 4/4 year |
-| DC08 | Testing of monitoring devices for traffic sign element position monitoring needs. Testing will initially take place in laboratory conditions and subsequently using simulated impacts, falls to determine robustness and reliability. In the project we expect both testing of more robust microcontrollers with greater possibilities but also consumption, as well as simpler ones that don't support classical Linux-type OS but enable achievement of required functionality. In image capture area, it will be necessary to solve lighting conditions, especially backlight problem at night, but also sufficient pixel resolution for license plate detection. | MAI | VSB | 4/4 year |
+| DC08 | Testing of monitoring devices for traffic sign element position monitoring needs. Testing will initially take place in laboratory conditions and subsequently using simulated impacts, falls to determine robustness and reliability. In the project we expect both testing of more robust micro-controllers with greater possibilities but also consumption, as well as simpler ones that don't support classical Linux-type OS but enable achievement of required functionality. In image capture area, it will be necessary to solve lighting conditions, especially backlight problem at night, but also sufficient pixel resolution for license plate detection. | MAI | VSB | 4/4 year |
 | DC09 | Preparation of comprehensive documentation of "Smart Base" and initiation of utility model proceedings | MAI | VSB | 3/4 year |
 | DC10 | Database preparation and machine learning algorithms - testing of learning process especially video processing. | VSB | MAI | 3/4 year |
-| DC11 | Definition of requirements for application control graphical interface (dispatch application). Creation of wireframes, control description and application structure. Interface for communication with backoffice will be prepared. This application will be prepared in hybrid environment for concurrent use on mobile phone. | MAI | VSB | 1/4 year |
+| DC11 | Definition of requirements for application control graphical interface (dispatch application). Creation of wire-frames, control description and application structure. Interface for communication with back office will be prepared. This application will be prepared in hybrid environment for concurrent use on mobile phone. | MAI | VSB | 1/4 year |
 | DC12 | Coding of Web dispatch application (SW) and its finalization so that system is ready for testing. | MAI | VSB | 1/2 year |
-| DC13 | Creation of test version of microcontroller for individual station types. Partial goal includes creation of "Smart Base" for directional board. | VSB | MAI | 1/2 year |
+| DC13 | Creation of test version of micro-controller for individual station types. Partial goal includes creation of "Smart Base" for directional board. | VSB | MAI | 1/2 year |
 | DC14 | Processing of methodological manual for implementation of remote monitoring of temporary traffic control elements | MAI | VSB | 1/2 year |
-| DC15 | Data evaluation and calibration of detection algorithms. Also includes verification of output values and reliability of provided detected information. Testing will already be carried out in prepared chassis first in laboratory conditions to be ready for pilot testing in real conditions. Technology will be environment with pre-prepared computing resources and series of existing models. Suitable model or models will be selected, used as basis and subsequently modified for project needs. After achieving results meeting predefined quality criteria, model simplification will be performed to reduce its energy demands. Optimized model will then be modified for use in microcontroller. | VSB | MAI | 1/2 year |
+| DC15 | Data evaluation and calibration of detection algorithms. Also includes verification of output values and reliability of provided detected information. Testing will already be carried out in prepared chassis first in laboratory conditions to be ready for pilot testing in real conditions. Technology will be environment with pre-prepared computing resources and series of existing models. Suitable model or models will be selected, used as basis and subsequently modified for project needs. After achieving results meeting predefined quality criteria, model simplification will be performed to reduce its energy demands. Optimized model will then be modified for use in micro-controller. | VSB | MAI | 1/2 year |
 | DC16 | Back office coding (SW) and integration of relevant data sources. This activity will already be started in previous phase. | MAI | VSB | 4/4 year |
 | DC17 | Coding of module (SW) for event detection. Individual events will be defined for alert states for individual use cases. Main two will include recording of light set damage and detection of sign falling or rotation. For operator level includes connection of information from IoT core solution part to operator application. Operator application will thus have database filled from two main sources. First is aforementioned IoT core with information about operation and configurations of workplace monitoring installations, second part is additional data about workplace configuration entered by operator. | VSB | MAI | 4/4 year |
-| DC18 | Functional sample of system for temporary traffic sign element damage detection. Microcontroller using IP camera for accident detection or other events of signal light set with possibility of accident recording. | VSB | MAI | 4/4 year |
+| DC18 | Functional sample of system for temporary traffic sign element damage detection. Micro-controller using IP camera for accident detection or other events of signal light set with possibility of accident recording. | VSB | MAI | 4/4 year |
 | DC19 | Pilot testing of system in real conditions including SW detection of temporary traffic sign element damage | MAI | VSB | 4/4 year |
 | DC20 | Evaluation of reliability of temporary traffic sign element damage detection for individual applications and implementation of testing conclusions into preparation of final version of SW tools | MAI | VSB | 4/4 year |
 
@@ -90,27 +91,28 @@ Project tasks are flexible, but they always have to belong to the pro project ac
 
 Maintenance is done by project managers :org_mai and :org_vsb. Keeping `activity_master_code` the rule. Think twice before introducing `activity_code` and `activity_tag`.
 
-- [ ] TODO :team_jirihylmar Fri Nov 15 06:46:35 CEST 2024 expand a content of deliverables for the initial testing phase.
+- [x] TODO :team_jirihylmar Fri Nov 15 06:46:35 CEST 2024 expand a content of deliverables for the initial testing phase.
 
 Table: Planned Project Tasks
 
 | activity_master_code | activity_code | activity_tag | activity_name | activity_description | responsibility_person_tag | responsibility_organization_tag | time_planned | time_executed |
 |---------------------|---------------|--------------|---------------|---------------------|--------------------------|--------------------------------|--------------|---------------|
-| DC01 | T01_A | :task_iot_market_landscape | IoT Market Landscape | Available technical solutions, vendors, market trend | | :org_vsb | 202501 | |
-| DC01 | T01_B | :task_data_sources_analysis | Data Sources Analysis | Analysis and documentation of data collection systems | | :org_vsbtuo | 202501 | |
-| DC01 | T01_C | :task_iot_options_examples | IoT Options Examples | Minimal operation of considered IoT systems and method. Controlled and reproducible deployments. | | :org_vsbtuo | 202501 | |
-| DC01 | T01_D | :task_connection_technology_evaluation | Connection Technology Evaluation | Testing LoRa and GSM for Back Office communication | | :org_vsbtuo | 202502 | |
-| DC01 | T01_E | :task_input_interface_definition | Input Interface Definition | System interface specification and documentation | | :org_vsbtuo | 202503 | |
-| DC02 | T02_A | :task_iot_core_dev | IoT Core Development | Development of device authentication and communication | | :org_vsbtuo | 202502 | |
-| DC02 | T02_B | :task_data_structure | Data Structure Design | IoT information storage and dictionary preparation | | :org_vsbtuo | 202503 | |
+| DC01 | T01_A | :task_iot_market_landscape | IoT Market Landscape | Available technical solutions, vendors, market trend | :team_jirihylmar | :org_vsbtuo | 202501 | 202501 |
+| DC01 | T01_B | :task_data_sources_analysis | Data Sources Analysis | Analysis and documentation of data collection systems | :team_lukasorcik | :org_vsbtuo | 202501 | |
+| DC01 | T01_C | :task_iot_options_examples | IoT Options Examples | Minimal operation of considered IoT systems and method. Controlled and reproducible deployments. | :team_martinlysek | :org_vsbtuo | 202501 | |
+| DC01 | T01_D | :task_connection_technology_evaluation | Connection Technology Evaluation | Testing LoRa and GSM for Back Office communication | :team_martinlysek | :org_vsbtuo | 202502 | |
+| DC01 | T01_E | :task_aws_interfaces_definition | AWS Interfaces Definition | AWS interfaces definition, testing and documentation | :team_lukasorcik | :org_vsbtuo | 202502 | |
+| DC02 | T02_A | :task_iot_core_dev | IoT Core Development | Development of device authentication and communication | :team_martinlysek | :org_vsbtuo | 202502 | |
+| DC02 | T02_B | :task_data_structure | Data Structure Design | IoT information storage and dictionary preparation | :team_jirihylmar | :org_vsbtuo | 202503 | |
 | DC02 | T02_C | :task_event_automation | Event Automation | Development of event processing automation | | :org_vsbtuo | 202504 | |
-| DC03 | T03_A | :task_system_analysis | System Analysis | System architecture and requirements analysis | | :org_mai | 202501 | |
+| DC02 | T02_D | :task_testing_iot_devices | Testing IoT Devices | Testing IoT devices selection, procurement, configuration maintenance | :team_martinlysek | :org_vsbtuo | 202503 | |
+| DC03 | T03_A | :task_system_analysis | System Analysis | System architecture and requirements analysis | :team_lukasorcik | :org_mai | 202501 | |
 | DC03 | T03_B | :task_process_analysis | Process Analysis | Business process analysis and documentation | | :org_mai | 202502 | |
 | DC04 | T04_A | :task_ml_database | ML Database Preparation | Machine learning database setup and configuration | | :org_vsbtuo | 202504 | |
 | DC04 | T04_B | :task_ml_algorithms | ML Algorithm Development | Development of recognition algorithms | | :org_vsbtuo | 202506 | |
 | DC05 | T05_A | :task_legal_analysis | Legal Analysis | Analysis of camera footage legal requirements | | :org_mai | 202504 | |
 | DC06 | T06_A | :task_use_case_definition | Use Case Definition | Definition of monitoring scenarios | | :org_mai | 202502 | |
-| DC06 | T06_B | :task_hw_selection | Hardware Selection | Selection of microcontroller components | | :org_mai | 202503 | |
+| DC06 | T06_B | :task_hw_selection | Hardware Selection | Selection of micro-controller components | | :org_mai | 202503 | |
 | DC07 | T07_A | :task_dataset_preparation | Dataset Preparation | Preparation of ML training datasets | | :org_vsbtuo | 202504 | |
 | DC07 | T07_B | :task_data_collection | Data Collection | Collection of traffic sign configuration data | | :org_vsbtuo | 202506 | |
 | DC08 | T08_A | :task_lab_testing | Laboratory Testing | Initial device testing in lab conditions | | :org_mai | 202506 | |

@@ -169,13 +169,18 @@ nav:
   - GOVERNANCE:
     - ZONEIOT Návrh projektu RO: governance/zoneiot_navrh_projektu_ro.md
     - ZONEIOT Accounts: governance/zoneiot_accounts.md
-  - DEVELOPMENT:
-    - ZONEIOT Market Landscape  RO: development/zoneiot_market_landscape_ro.md
-    - LImits Calculation Storage and Motion RO: development/limits_calculations_storage_and_motion.md
-    - Limits Calculation Power Consumption RO: development/limits_calculations_power_consumption.md
-  - DICTIONARY: dictionary.md
+  - DEV COMMON:
+    - ZONEIOT Market Landscape RO: development_common/zoneiot_market_landscape_ro.md
+    - LImits Calculation Storage and Motion RO: development_common/limits_calculations_storage_and_motion.md
+    - Limits Calculation Power Consumption RO: development_common/limits_calculations_power_consumption.md
+  - DEV DEVICES:
+    - Testing IoT Devices: development_devices/testing_iot_devices.md
+  - DEV AWS:
+    - AWS Interfaces Definition: development_aws/aws_interfaces_definition.md
   - TAGS: tags.md
-  - LINKS: links.md
-  - STAT: statistics.md
-  - CONTACT: contact.md
-  - TEMPLATE: template.md
+  - SUPPORT:
+    - DICTIONARY: support/dictionary.md
+    - LINKS: support/links.md
+    - STAT: support/statistics.md
+    - CONTACT: support/contact.md
+    - TEMPLATE: support/template.md

@@ -2,7 +2,7 @@
 
 # Documentation Link Generator
 # Generates markdown links from document headings
-# Usage: . $HOME/doc-zoneiot/create_reference_links.sh $HOME/doc-zoneiot
+# Usage: . $HOME/<project-root>/create_reference_links.sh $HOME/<project-root>
 
 set -euo pipefail
 
@@ -14,7 +14,7 @@ fi
 PROJECT_PATH="$1"
 DOCS_DIR="${PROJECT_PATH}/docs"
 TEMP_DIR=$(mktemp -d)
-OUTPUT_FILE="${DOCS_DIR}/links.md"
+OUTPUT_FILE="${DOCS_DIR}/support/links.md"
 
 cleanup() {
     rm -rf "${TEMP_DIR}"
@@ -37,8 +37,9 @@ sed 's/.*#//' "${TEMP_DIR}/raw.txt" | \
     sed 's/^[[:space:]]*//; s/[[:space:]]*$//' | \
     tr '\n' '\0' | tr -d '\r' | tr '\0' '\n' > "${TEMP_DIR}/names.txt"
 
-# Process paths: extract file paths only, remove /docs prefix
-sed -E "s/:#+.*//; s|${PROJECT_PATH}/docs||" "${TEMP_DIR}/raw.txt" > "${TEMP_DIR}/paths.txt"
+# Process paths: extract file paths only, remove /docs prefix, add leading slash
+sed -E "s/:#+.*//; s|${PROJECT_PATH}/docs||" "${TEMP_DIR}/raw.txt" | \
+    sed 's|^|/|' > "${TEMP_DIR}/paths.txt"
 
 # Normalize names for anchors (create IDs)
 cat "${TEMP_DIR}/names.txt" | \
@@ -67,6 +68,7 @@ cat "${TEMP_DIR}/names.txt" | \
         sed -E '
             s|$|) *refDoc*|;
             s|/index.md#|#|;
+            s|.md#|#|;           # Remove .md extension before anchor
             s/[[:space:]]+$//;
             s/\\([()])/\1/g
         ' | \
@@ -80,12 +82,6 @@ cat "${TEMP_DIR}/names.txt" | \
 } > "${TEMP_DIR}/sorted_links.txt"
 
 # Create final output with header
-#{
-#    echo "# Links"
-#    echo
-#    cat "${TEMP_DIR}/sorted_links.txt"
-#} > "${OUTPUT_FILE}"
-
 {
     echo "# Links"
     echo
@@ -100,9 +96,8 @@ Purpose:
 ```
 EOF
 
-echo
-
-cat "${TEMP_DIR}/sorted_links.txt"
+    echo
+    cat "${TEMP_DIR}/sorted_links.txt"
 } > "${OUTPUT_FILE}"
 
 echo "Links generated successfully at: ${OUTPUT_FILE}"

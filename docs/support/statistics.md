@@ -6,7 +6,7 @@ tags:
 # Statistics
 ```yaml
 Author: :team_jirihylmar
-Created: 2024-11-15 13:15:16
+Created: 2025-01-02 18:14:40
 Updated: 1970-01-01 00:00:00
 Master: mkdocs
 Purpose:
@@ -17,10 +17,10 @@ Table: ZONEIOT Documentation Statistics
 
 | Key | Value |
 |---|---|
-| Repo size | 0.80 MB |
-| Repo size excluding .git | 0.45 MB |
-| Repo size .git | 0.35 MB |
+| Repo size | 0.19 MB |
+| Repo size excluding .git | 0.19 MB |
+| Repo size .git | 0.00 MB |
 | Number of pages | 15 |
-| Number of characters | 133.646 |
-| Number of words | 18.428 |
-| Number of headings | 210 |
+| Number of characters | 134.861 |
+| Number of words | 18.507 |
+| Number of headings | 202 |

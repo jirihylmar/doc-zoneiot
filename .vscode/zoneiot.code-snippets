@@ -2,7 +2,7 @@
   "ZIOT Team Members": {
     "prefix": "ziot_team",
     "body": [
-      "${1|:team_hwspec,:team_intprogrammer,:team_janmynarik,:team_jirihylmar,:team_lukaskapicak,:team_lukasorcik,:team_mai,:team_marekscerba,:team_martinhajek,:team_miroslavvoznak,:team_mlprogrammer,:team_productspec,:team_programmer,:team_servicetech,:team_vsb|}"
+      "${1|:team_hwspec,:team_intprogrammer,:team_janmynarik,:team_jirihylmar,:team_lukaskapicak,:team_lukasorcik,:team_mai,:team_marekscerba,:team_martinhajek,:team_martinlysek,:team_miroslavvoznak,:team_mlprogrammer,:team_productspec,:team_programmer,:team_servicetech,:team_vsb|}"
     ],
     "description": "Insert a ZONEIOT team member tag"
   },
@@ -16,7 +16,7 @@
   "ZIOT Tasks": {
     "prefix": "ziot_task",
     "body": [
-      "${1|:task_algorithm_calibration,:task_backend_development,:task_connection_technology_evaluation,:task_data_collection,:task_data_sources_analysis,:task_data_structure,:task_dataset_preparation,:task_event_automation,:task_event_detection,:task_field_testing,:task_functional_sample,:task_hw_selection,:task_input_interface_definition,:task_iot_core_dev,:task_iot_market_landscape,:task_iot_options_examples,:task_lab_testing,:task_legal_analysis,:task_methodology_development,:task_ml_algorithms,:task_ml_database,:task_pilot_testing,:task_process_analysis,:task_prototype_development,:task_reliability_evaluation,:task_smart_base_doc,:task_system_analysis,:task_ui_requirements,:task_use_case_definition,:task_video_processing,:task_web_development|}"
+      "${1|:task_algorithm_calibration,:task_aws_interfaces_definition,:task_backend_development,:task_connection_technology_evaluation,:task_data_collection,:task_data_sources_analysis,:task_data_structure,:task_dataset_preparation,:task_event_automation,:task_event_detection,:task_field_testing,:task_functional_sample,:task_hw_selection,:task_iot_core_dev,:task_iot_market_landscape,:task_iot_options_examples,:task_lab_testing,:task_legal_analysis,:task_methodology_development,:task_ml_algorithms,:task_ml_database,:task_pilot_testing,:task_process_analysis,:task_prototype_development,:task_reliability_evaluation,:task_smart_base_doc,:task_system_analysis,:task_testing_iot_devices,:task_ui_requirements,:task_use_case_definition,:task_video_processing,:task_web_development|}"
     ],
     "description": "Insert a ZONEIOT task tag"
   },

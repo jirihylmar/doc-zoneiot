@@ -108,7 +108,7 @@ def create_snippets(categories):
 
 def main():
     # Read input file from correct location
-    with open(os.path.expanduser('~/doc-zoneiot/docs/dictionary.md'), 'r', encoding='utf-8') as f:
+    with open(os.path.expanduser('~/doc-zoneiot/docs/support/dictionary.md'), 'r', encoding='utf-8') as f:
         content = f.read()
 
     # Extract and categorize tags

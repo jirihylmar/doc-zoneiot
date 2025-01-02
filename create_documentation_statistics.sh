@@ -7,7 +7,7 @@ if [ $# -ne 1 ]; then
 fi
 
 ROOT_PATH="$1"
-STATS_FILE="$ROOT_PATH/docs/statistics.md"
+STATS_FILE="$ROOT_PATH/support/statistics.md"
 CURRENT_DATE=$(date "+%Y-%m-%d %H:%M:%S")
 
 # Create header content
