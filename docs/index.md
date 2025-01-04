@@ -26,6 +26,7 @@ To contribute, use English as the primary language. See [Template](/support/temp
 	- shared account google to access services
 	- paid service Cloude Anthropic, AWS
 	- domain registration - essential for things management etc, but also for many other application where vsb.cz can not be used.
+	- [ ] TODO :team_lukasorcik Sat Jan 04 16:03:44 CEST 2025 delete unused buckets created within 299025166536
 
 	**OPENED :team_jirihylmar Thu Jan 02 17:58:45 CEST 2025**
 
