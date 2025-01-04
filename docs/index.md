@@ -18,6 +18,15 @@ To contribute, use English as the primary language. See [Template](/support/temp
 
 ???+ success "Action Plan Up To Date"
 
+	**OPENED :team_jirihylmar Sat Jan 04 15:49:28 CEST 2025**
+
+	- [ZoneIoT Naming Conventions](/development_common/zoneiot_naming_conventions#zoneiot-naming-conventions) *refDoc*
+	- GitHub repositories shared `doc-zoneiot`, `zoneiot-collectors-firmware-infdev`, `zoneiot-collectors-provision-infdev`
+	- :org_mai ? documentation source code access
+	- shared account google to access services
+	- paid service Cloude Anthropic, AWS
+	- domain registration - essential for things management etc, but also for many other application where vsb.cz can not be used.
+
 	**OPENED :team_jirihylmar Thu Jan 02 17:58:45 CEST 2025**
 
 	`Agenda 2025-01-09`
