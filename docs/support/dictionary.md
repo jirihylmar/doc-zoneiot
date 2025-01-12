@@ -48,7 +48,7 @@ Table: Team Members
 | Lukáš Kapičák | +420731663275 | lukas.kapicak@vsb.cz | :team_lukaskapicak | :org_vsb | Assistant |
 | Jiří Hylmar | +420736504011 | jiri.hylmar@vsb.cz | :team_jirihylmar | :org_vsb | Research Developer |
 | Miroslav Vozňák | +420603565965 | miroslav.voznak@vsb.cz | :team_miroslavvoznak | :org_vsb | Professor |
-| Martin Lysek | - | martin.lysek.st@vsb.cz | :team_martinlysek | :org_vsb | Embedded Systems Developer |
+| Martin Lysek | +420606769976 | martin.lysek.st@vsb.cz | :team_martinlysek | :org_vsb | Embedded Systems Developer |
 | [Unnamed 1] | - | - | :team_productspec | :org_mai | Product Specialist |
 | [Unnamed 2] | - | - | :team_hwspec | :org_mai | Hardware Specialist |
 | [Unnamed 3] | - | - | :team_servicetech | :org_mai | Service Technician |
@@ -97,36 +97,36 @@ Table: Planned Project Tasks
 
 | activity_master_code | activity_code | activity_tag | activity_name | activity_description | responsibility_person_tag | responsibility_organization_tag | time_planned | time_executed |
 |---------------------|---------------|--------------|---------------|---------------------|--------------------------|--------------------------------|--------------|---------------|
-| DC01 | T01_A | :task_iot_market_landscape | IoT Market Landscape | Available technical solutions, vendors, market trend | :team_jirihylmar | :org_vsbtuo | 202501 | 202501 |
-| DC01 | T01_B | :task_data_sources_analysis | Data Sources Analysis | Analysis and documentation of data collection systems | :team_lukasorcik | :org_vsbtuo | 202501 | |
-| DC01 | T01_C | :task_iot_options_examples | IoT Options Examples | Minimal operation of considered IoT systems and method. Controlled and reproducible deployments. | :team_martinlysek | :org_vsbtuo | 202501 | |
-| DC01 | T01_D | :task_connection_technology_evaluation | Connection Technology Evaluation | Testing LoRa and GSM for Back Office communication | :team_martinlysek | :org_vsbtuo | 202502 | |
-| DC01 | T01_E | :task_aws_interfaces_definition | AWS Interfaces Definition | AWS interfaces definition, testing and documentation | :team_lukasorcik | :org_vsbtuo | 202502 | |
-| DC02 | T02_A | :task_iot_core_dev | IoT Core Development | Development of device authentication and communication | :team_martinlysek | :org_vsbtuo | 202502 | |
-| DC02 | T02_B | :task_data_structure | Data Structure Design | IoT information storage and dictionary preparation | :team_jirihylmar | :org_vsbtuo | 202503 | |
-| DC02 | T02_C | :task_event_automation | Event Automation | Development of event processing automation | | :org_vsbtuo | 202504 | |
-| DC02 | T02_D | :task_testing_iot_devices | Testing IoT Devices | Testing IoT devices selection, procurement, configuration maintenance | :team_martinlysek | :org_vsbtuo | 202503 | |
+| DC01 | T01_A | :task_iot_market_landscape | IoT Market Landscape | Available technical solutions, vendors, market trend | :team_jirihylmar | :org_vsb | 202501 | 202501 |
+| DC01 | T01_B | :task_data_sources_analysis | Data Sources Analysis | Analysis and documentation of data collection systems | :team_lukasorcik | :org_vsb | 202501 | |
+| DC01 | T01_C | :task_iot_options_examples | IoT Options Examples | Minimal operation of considered IoT systems and method. Controlled and reproducible deployments. | :team_martinlysek | :org_vsb | 202501 | |
+| DC01 | T01_D | :task_connection_technology_evaluation | Connection Technology Evaluation | Testing LoRa and GSM for Back Office communication | :team_martinlysek | :org_vsb | 202502 | |
+| DC01 | T01_E | :task_aws_interfaces_definition | AWS Interfaces Definition | AWS interfaces definition, testing and documentation | :team_lukasorcik | :org_vsb | 202502 | |
+| DC02 | T02_A | :task_iot_core_dev | IoT Core Development | Development of device authentication and communication | :team_martinlysek | :org_vsb | 202502 | |
+| DC02 | T02_B | :task_data_structure | Data Structure Design | IoT information storage and dictionary preparation | :team_jirihylmar | :org_vsb | 202503 | |
+| DC02 | T02_C | :task_event_automation | Event Automation | Development of event processing automation | | :org_vsb | 202504 | |
+| DC02 | T02_D | :task_testing_iot_devices | Testing IoT Devices | Testing IoT devices selection, procurement, configuration maintenance | :team_martinlysek | :org_vsb | 202503 | |
 | DC03 | T03_A | :task_system_analysis | System Analysis | System architecture and requirements analysis | :team_lukasorcik | :org_mai | 202501 | |
 | DC03 | T03_B | :task_process_analysis | Process Analysis | Business process analysis and documentation | | :org_mai | 202502 | |
-| DC04 | T04_A | :task_ml_database | ML Database Preparation | Machine learning database setup and configuration | | :org_vsbtuo | 202504 | |
-| DC04 | T04_B | :task_ml_algorithms | ML Algorithm Development | Development of recognition algorithms | | :org_vsbtuo | 202506 | |
+| DC04 | T04_A | :task_ml_database | ML Database Preparation | Machine learning database setup and configuration | | :org_vsb | 202504 | |
+| DC04 | T04_B | :task_ml_algorithms | ML Algorithm Development | Development of recognition algorithms | | :org_vsb | 202506 | |
 | DC05 | T05_A | :task_legal_analysis | Legal Analysis | Analysis of camera footage legal requirements | | :org_mai | 202504 | |
 | DC06 | T06_A | :task_use_case_definition | Use Case Definition | Definition of monitoring scenarios | | :org_mai | 202502 | |
 | DC06 | T06_B | :task_hw_selection | Hardware Selection | Selection of micro-controller components | | :org_mai | 202503 | |
-| DC07 | T07_A | :task_dataset_preparation | Dataset Preparation | Preparation of ML training datasets | | :org_vsbtuo | 202504 | |
-| DC07 | T07_B | :task_data_collection | Data Collection | Collection of traffic sign configuration data | | :org_vsbtuo | 202506 | |
+| DC07 | T07_A | :task_dataset_preparation | Dataset Preparation | Preparation of ML training datasets | | :org_vsb | 202504 | |
+| DC07 | T07_B | :task_data_collection | Data Collection | Collection of traffic sign configuration data | | :org_vsb | 202506 | |
 | DC08 | T08_A | :task_lab_testing | Laboratory Testing | Initial device testing in lab conditions | | :org_mai | 202506 | |
 | DC08 | T08_B | :task_field_testing | Field Testing | Advanced testing with simulated impacts | | :org_mai | 202508 | |
 | DC09 | T09_A | :task_smart_base_doc | Smart Base Documentation | Documentation of smart base design | | :org_mai | 202509 | |
-| DC10 | T10_A | :task_video_processing | Video Processing | Development of video processing algorithms | | :org_vsbtuo | 202509 | |
+| DC10 | T10_A | :task_video_processing | Video Processing | Development of video processing algorithms | | :org_vsb | 202509 | |
 | DC11 | T11_A | :task_ui_requirements | UI Requirements | Definition of dispatcher UI requirements | | :org_mai | 202601 | |
 | DC12 | T12_A | :task_web_development | Web Development | Development of dispatcher web application | | :org_mai | 202603 | |
-| DC13 | T13_A | :task_prototype_development | Prototype Development | Development of microcontroller prototype | | :org_vsbtuo | 202603 | |
+| DC13 | T13_A | :task_prototype_development | Prototype Development | Development of microcontroller prototype | | :org_vsb | 202603 | |
 | DC14 | T14_A | :task_methodology_development | Methodology Development | Development of monitoring methodology | | :org_mai | 202603 | |
-| DC15 | T15_A | :task_algorithm_calibration | Algorithm Calibration | Calibration and testing of detection algorithms | | :org_vsbtuo | 202603 | |
+| DC15 | T15_A | :task_algorithm_calibration | Algorithm Calibration | Calibration and testing of detection algorithms | | :org_vsb | 202603 | |
 | DC16 | T16_A | :task_backend_development | Backend Development | Development of back office system | | :org_mai | 202612 | |
-| DC17 | T17_A | :task_event_detection | Event Detection | Development of event detection module | | :org_vsbtuo | 202612 | |
-| DC18 | T18_A | :task_functional_sample | Functional Sample | Development of damage detection prototype | | :org_vsbtuo | 202612 | |
+| DC17 | T17_A | :task_event_detection | Event Detection | Development of event detection module | | :org_vsb | 202612 | |
+| DC18 | T18_A | :task_functional_sample | Functional Sample | Development of damage detection prototype | | :org_vsb | 202612 | |
 | DC19 | T19_A | :task_pilot_testing | Pilot Testing | System testing in real conditions | | :org_mai | 202612 | |
 | DC20 | T20_A | :task_reliability_evaluation | Reliability Evaluation | Evaluation of detection reliability | | :org_mai | 202612 | |
 

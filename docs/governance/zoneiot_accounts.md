@@ -25,6 +25,8 @@ Purpose:
 - [Github Documentation](https://github.com/jirihylmar/hyl-zoneiot)
 - [AWS Account 299025166536 tomi nuke][https://eu-central-1.console.aws.amazon.com/console/home?region=eu-central-1]
 
+- [ ] TODO :team_lukasorcik Sat Jan 04 16:03:44 CEST 2025 delete unused buckets created within 299025166536
+
 ## Preparation
 
 - [Google Drive project preparation jiri.hylmar.g@vsb.cz](https://drive.google.com/drive/u/0/folders/1f1BAaGeV2zsq5kZrn7TsFmxApHSaHp2V)

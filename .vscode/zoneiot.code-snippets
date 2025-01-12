@@ -9,7 +9,7 @@
   "ZIOT Organizations": {
     "prefix": "ziot_org",
     "body": [
-      "${1|:org_mai,:org_vsb,:org_vsbtuo|}"
+      "${1|:org_mai,:org_vsb|}"
     ],
     "description": "Insert a ZONEIOT organization tag"
   },

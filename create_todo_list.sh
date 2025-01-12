@@ -30,7 +30,7 @@ Purpose:
 
 EOL
 
-find "$ROOT_PATH/docs" -type f -name "*.md" ! -name "todo.md" | while read -r file; do
+find "$ROOT_PATH" -type f -name "*.md" ! -name "todo.md" | while read -r file; do
     current_section=""
     while IFS= read -r line; do
         if [[ $line =~ ^##[[:space:]]+(.*) ]]; then

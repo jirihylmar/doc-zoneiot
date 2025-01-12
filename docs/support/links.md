@@ -25,13 +25,15 @@ Purpose:
 [Current Speed Analysis (30.0 km/h)](/development_common/limits_calculations_storage_and_motion#current-speed-analysis-(30.0-km/h)) *refDoc*
 [Image Configuration](/development_common/limits_calculations_storage_and_motion#image-configuration) *refDoc*
 [Image Size](/development_common/limits_calculations_storage_and_motion#image-size) *refDoc*
-[LImits Calculation Storage and Motion](/development_common/limits_calculations_storage_and_motion#limits-calculation-storage-and-motion) *refDoc*
+[Limits Calculation Storage and Motion](/development_common/limits_calculations_storage_and_motion#limits-calculation-storage-and-motion) *refDoc*
 [Motion Analysis](/development_common/limits_calculations_storage_and_motion#motion-analysis) *refDoc*
 [Motion Configuration](/development_common/limits_calculations_storage_and_motion#motion-configuration) *refDoc*
 [Speed Scenario Analysis](/development_common/limits_calculations_storage_and_motion#speed-scenario-analysis) *refDoc*
 [Storage Capacity](/development_common/limits_calculations_storage_and_motion#storage-capacity) *refDoc*
 [Storage Capacity Analysis](/development_common/limits_calculations_storage_and_motion#storage-capacity-analysis) *refDoc*
 [Storage Configuration](/development_common/limits_calculations_storage_and_motion#storage-configuration) *refDoc*
+[Early Stage Development IoT](/development_common/solution_development_strategies#early-stage-development-iot) *refDoc*
+[Solution Development Strategies](/development_common/solution_development_strategies#solution-development-strategies) *refDoc*
 [CHIP-OS combinations](/development_common/zoneiot_market_landscape_ro#chip-os-combinations) *refDoc*
 [Development Environment Complexity](/development_common/zoneiot_market_landscape_ro#development-environment-complexity) *refDoc*
 [Introduction](/development_common/zoneiot_market_landscape_ro#introduction) *refDoc*
@@ -75,6 +77,8 @@ Purpose:
 [Service Codes (2 chars)](/development_common/zoneiot_naming_conventions#service-codes-(2-chars)) *refDoc*
 [Version (1 char)](/development_common/zoneiot_naming_conventions#version-(1-char)) *refDoc*
 [ZoneIoT Naming Conventions](/development_common/zoneiot_naming_conventions#zoneiot-naming-conventions) *refDoc*
+[Introduction Minimal Parameters of Devices](/development_devices/minimal_parameters_of_devices#introduction-minimal-parameters-of-devices) *refDoc*
+[Minimal Parameters of Devices](/development_devices/minimal_parameters_of_devices#minimal-parameters-of-devices) *refDoc*
 [Introduction Testing IoT Devices](/development_devices/testing_iot_devices#introduction-testing-iot-devices) *refDoc*
 [Testing IoT Devices](/development_devices/testing_iot_devices#testing-iot-devices) *refDoc*
 [Implementation](/governance/zoneiot_accounts#implementation) *refDoc*

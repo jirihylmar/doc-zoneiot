@@ -5,7 +5,7 @@ tags:
   - :task_tech_evaluation
 ---
 
-# LImits Calculation Storage and Motion
+# Limits Calculation Storage and Motion
 
 ## Storage Capacity Analysis
 

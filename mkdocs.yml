@@ -175,6 +175,7 @@ nav:
     - LImits Calculation Storage and Motion RO: development_common/limits_calculations_storage_and_motion.md
     - Limits Calculation Power Consumption RO: development_common/limits_calculations_power_consumption.md
   - DEV DEVICES:
+    - Minimal Parameters of Devices: development_devices/minimal_parameters_of_devices.md
     - Testing IoT Devices: development_devices/testing_iot_devices.md
   - DEV AWS:
     - AWS Interfaces Definition: development_aws/aws_interfaces_definition.md
