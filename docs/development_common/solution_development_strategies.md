@@ -56,3 +56,8 @@ Purpose:
   - Proprietary protocols
   - Local wireless connections
   - Power-optimized communication strategies
+
+## Cleaning Camera Screens
+
+Idea :org_vsb mechanical solution based on hose overrun by cars >>> creates pressure >>> results to air, liquid directed to camera screen.
+- [ ] TODO :org_mai Sun Jan 12 21:13:30 CEST 2025 Cleaning Camera Screens

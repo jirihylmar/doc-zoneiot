@@ -170,6 +170,7 @@ nav:
     - ZONEIOT Návrh projektu RO: governance/zoneiot_navrh_projektu_ro.md
     - ZONEIOT Accounts: governance/zoneiot_accounts.md
   - DEV COMMON:
+    - Solution Development Strategies: development_common/solution_development_strategies.md
     - ZoneIoT Naming Conventions: development_common/zoneiot_naming_conventions.md
     - ZONEIOT Market Landscape RO: development_common/zoneiot_market_landscape_ro.md
     - LImits Calculation Storage and Motion RO: development_common/limits_calculations_storage_and_motion.md
