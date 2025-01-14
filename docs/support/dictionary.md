@@ -49,7 +49,7 @@ Table: Team Members
 | Jiří Hylmar | +420736504011 | jiri.hylmar@vsb.cz | :team_jirihylmar | :org_vsb | Research Developer |
 | Miroslav Vozňák | +420603565965 | miroslav.voznak@vsb.cz | :team_miroslavvoznak | :org_vsb | Professor |
 | Martin Lysek | +420606769976 | martin.lysek.st@vsb.cz | :team_martinlysek | :org_vsb | Embedded Systems Developer |
-| [Unnamed 1] | - | - | :team_productspec | :org_mai | Product Specialist |
+| Tomáš Červenka | +420724480782 | tomas.cervenka@mai-systems.cz | :team_tomascervenka | :org_mai | Product Specialist |
 | [Unnamed 2] | - | - | :team_hwspec | :org_mai | Hardware Specialist |
 | [Unnamed 3] | - | - | :team_servicetech | :org_mai | Service Technician |
 | [Unnamed 4] | - | - | :team_programmer | :org_mai | Programmer |
