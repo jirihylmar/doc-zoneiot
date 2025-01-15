@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Main circle background -->
+  <circle cx="200" cy="200" r="190" fill="#fff5f5"/>
+  <circle cx="200" cy="200" r="180" fill="#ffffff" stroke="#ffe0e0" stroke-width="2"/>
+  
+  <!-- Outer ring representing road -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#333" stroke-width="30"/>
+  
+  <!-- Road markings -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="white" stroke-width="4" stroke-dasharray="20,20"/>
+  
+  <!-- IoT connection ring -->
+  <circle cx="200" cy="200" r="120" fill="none" stroke="#e53e3e" stroke-width="4" stroke-dasharray="4,4"/>
+  
+  <!-- IoT Nodes -->
+  <circle cx="200" cy="80" r="20" fill="#e53e3e"/>
+  <circle cx="320" cy="200" r="20" fill="#e53e3e"/>
+  <circle cx="200" cy="320" r="20" fill="#e53e3e"/>
+  <circle cx="80" cy="200" r="20" fill="#e53e3e"/>
+  
+  <!-- Connection lines -->
+  <path d="M200 100 L320 200 L200 320 L80 200 Z" stroke="#e53e3e" stroke-width="3" fill="none"/>
+  
+  <!-- Center IoT hub -->
+  <circle cx="200" cy="200" r="40" fill="#e53e3e"/>
+  <circle cx="200" cy="200" r="35" fill="white"/>
+  <path d="M185 185 L215 215 M185 215 L215 185" stroke="#e53e3e" stroke-width="8" stroke-linecap="round"/>
+</svg>
