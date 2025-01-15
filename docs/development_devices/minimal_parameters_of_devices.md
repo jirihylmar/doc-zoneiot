@@ -27,7 +27,7 @@ In this document
 
 ### Photo test samples
 
-- Distances approx.: 2.5 and 7 m
+- Distances approx.: 6 and 15 m (laser)
 - Camera: [AXIS Q1786-LE](https://www.axis.com/products/axis-q1786-le/support)
 
 #### 320x240 px  
