@@ -44,17 +44,17 @@ Table: Team Members
 | Marek Ščerba | +420606689956 | marek.scerba@seznam.cz | :team_marekscerba | :org_mai | Project Manager |
 | Martin Hájek | +420731564000 | martin.hajek@moravialab.cz | :team_martinhajek | :org_mai | Traffic Specialist |
 | Jan Mynařík | +420604486849 | jan.mynarik@gmail.com | :team_janmynarik | :org_mai | Programmer Analyst |
-| Lukáš Orčík | +421915161813 | lukas.orcik@vsb.cz | :team_lukasorcik | :org_vsb | Research Developer |
-| Lukáš Kapičák | +420731663275 | lukas.kapicak@vsb.cz | :team_lukaskapicak | :org_vsb | Assistant |
+| Lukáš Orčík | +421915161813 | lukas.orcik@vsb.cz | :team_lukasorcik | :org_vsb | Research Developer (0.4) |
+| Lukáš Kapičák | +420731663275 | lukas.kapicak@vsb.cz | :team_lukaskapicak | :org_vsb | Assistant (0.3)|
 | Jiří Hylmar | +420736504011 | jiri.hylmar@vsb.cz | :team_jirihylmar | :org_vsb | Research Developer |
 | Miroslav Vozňák | +420603565965 | miroslav.voznak@vsb.cz | :team_miroslavvoznak | :org_vsb | Professor |
-| Martin Lysek | +420606769976 | martin.lysek.st@vsb.cz | :team_martinlysek | :org_vsb | Embedded Systems Developer |
+| Martin Lysek | +420606769976 | martin.lysek.st@vsb.cz | :team_martinlysek | :org_vsb | Embedded Systems Developer (0.3) |
 | Tomáš Červenka | +420724480782 | tomas.cervenka@mai-systems.cz | :team_tomascervenka | :org_mai | Product Specialist |
 | [Unnamed 2] | - | - | :team_hwspec | :org_mai | Hardware Specialist |
 | [Unnamed 3] | - | - | :team_servicetech | :org_mai | Service Technician |
 | [Unnamed 4] | - | - | :team_programmer | :org_mai | Programmer |
-| [Unnamed 5] | - | - | :team_mlprogrammer | :org_vsb | Machine Learning Programmer |
-| [Unnamed 6] | - | - | :team_intprogrammer | :org_vsb | Integration Programmer |
+| Jakub Jalowiczor | - | jakub.jalowiczor@vsb.cz | :team_jakubjalowiczor | :org_vsb | Machine Learning Programmer (0.25) |
+| Martin Tomis | - | martin.tomis@vsb.cz | :team_martintomis | :org_vsb | Integration Programmer (0.25) |
 
 ## Planned Project Activities
 

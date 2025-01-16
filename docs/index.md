@@ -18,6 +18,15 @@ To contribute, use English as the primary language. See [Template](/support/temp
 
 ???+ success "Action Plan Up To Date"
 
+	**OPENED :jirihylmar Thu Jan 16 12:30:53 CEST 2025**
+
+	`Agenda 2024-01-16`
+
+	- [TODO](/todo#todo) *refDoc* check
+	- New team members VSB [Team Members](/support/dictionary#team-members) *refDoc*
+	- domain  zoneiot.cz, service account master@zoneiot.cz [ZONEIOT Accounts](/governance/zoneiot_accounts#zoneiot-accounts) *refDoc*
+	- Discussion, approval [Solution Development Strategies](/development_common/solution_development_strategies#solution-development-strategies) *refDoc*
+
 	**OPENED :team_jirihylmar Sat Jan 04 15:49:28 CEST 2025**
 
 	- [ZoneIoT Naming Conventions](/development_common/zoneiot_naming_conventions#zoneiot-naming-conventions) *refDoc*
