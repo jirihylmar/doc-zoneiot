@@ -2,7 +2,7 @@
   "ZIOT Team Members": {
     "prefix": "ziot_team",
     "body": [
-      "${1|:team_hwspec,:team_intprogrammer,:team_janmynarik,:team_jirihylmar,:team_lukaskapicak,:team_lukasorcik,:team_mai,:team_marekscerba,:team_martinhajek,:team_martinlysek,:team_miroslavvoznak,:team_mlprogrammer,:team_productspec,:team_programmer,:team_servicetech,:team_vsb|}"
+      "${1|:team_hwspec,:team_jakubjalowiczor,:team_janmynarik,:team_jirihylmar,:team_lukaskapicak,:team_lukasorcik,:team_mai,:team_marekscerba,:team_martinhajek,:team_martinlysek,:team_martintomis,:team_miroslavvoznak,:team_programmer,:team_servicetech,:team_tomascervenka,:team_vsb|}"
     ],
     "description": "Insert a ZONEIOT team member tag"
   },

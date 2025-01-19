@@ -12,6 +12,8 @@ Purpose:
 [ZONEIOT](#zoneiot) *refDoc*
 [AWS Interfaces Definition](/development_aws/aws_interfaces_definition#aws-interfaces-definition) *refDoc*
 [Introduction AWS Interfaces Definition](/development_aws/aws_interfaces_definition#introduction-aws-interfaces-definition) *refDoc*
+[AWS IoT Metadata Management](/development_aws/aws_iot_metadata_management#aws-iot-metadata-management) *refDoc*
+[Introduction AWS IoT Metadata Management](/development_aws/aws_iot_metadata_management#introduction-aws-iot-metadata-management) *refDoc*
 [Battery Configuration](/development_common/limits_calculations_power_consumption#battery-configuration) *refDoc*
 [Battery Life Estimates](/development_common/limits_calculations_power_consumption#battery-life-estimates) *refDoc*
 [Daily Breakdown](/development_common/limits_calculations_power_consumption#daily-breakdown) *refDoc*
@@ -32,6 +34,7 @@ Purpose:
 [Storage Capacity](/development_common/limits_calculations_storage_and_motion#storage-capacity) *refDoc*
 [Storage Capacity Analysis](/development_common/limits_calculations_storage_and_motion#storage-capacity-analysis) *refDoc*
 [Storage Configuration](/development_common/limits_calculations_storage_and_motion#storage-configuration) *refDoc*
+[Cleaning Camera Screens](/development_common/solution_development_strategies#cleaning-camera-screens) *refDoc*
 [Early Stage Development IoT](/development_common/solution_development_strategies#early-stage-development-iot) *refDoc*
 [Solution Development Strategies](/development_common/solution_development_strategies#solution-development-strategies) *refDoc*
 [CHIP-OS combinations](/development_common/zoneiot_market_landscape_ro#chip-os-combinations) *refDoc*
@@ -77,12 +80,47 @@ Purpose:
 [Service Codes (2 chars)](/development_common/zoneiot_naming_conventions#service-codes-(2-chars)) *refDoc*
 [Version (1 char)](/development_common/zoneiot_naming_conventions#version-(1-char)) *refDoc*
 [ZoneIoT Naming Conventions](/development_common/zoneiot_naming_conventions#zoneiot-naming-conventions) *refDoc*
+[Develop ESP32 Samples](/development_devices/develop_esp32_samples#develop-esp32-samples) *refDoc*
+[Introduction Develop ESP32 Samples](/development_devices/develop_esp32_samples#introduction-develop-esp32-samples) *refDoc*
+[1280x960 px](/development_devices/minimal_parameters_of_devices#1280x960-px) *refDoc*
+[320x240 px](/development_devices/minimal_parameters_of_devices#320x240-px) *refDoc*
+[640x480 px](/development_devices/minimal_parameters_of_devices#640x480-px) *refDoc*
+[Discussion](/development_devices/minimal_parameters_of_devices#discussion) *refDoc*
 [Introduction Minimal Parameters of Devices](/development_devices/minimal_parameters_of_devices#introduction-minimal-parameters-of-devices) *refDoc*
 [Minimal Parameters of Devices](/development_devices/minimal_parameters_of_devices#minimal-parameters-of-devices) *refDoc*
+[Photo test samples](/development_devices/minimal_parameters_of_devices#photo-test-samples) *refDoc*
+[Related resources](/development_devices/minimal_parameters_of_devices#related-resources) *refDoc*
 [Introduction Testing IoT Devices](/development_devices/testing_iot_devices#introduction-testing-iot-devices) *refDoc*
 [Testing IoT Devices](/development_devices/testing_iot_devices#testing-iot-devices) *refDoc*
+[Attach core managed policies](/governance/aws_permissions#attach-core-managed-policies) *refDoc*
+[Attach our custom consolidated policy](/governance/aws_permissions#attach-our-custom-consolidated-policy) *refDoc*
+[Attach Users to Group](/governance/aws_permissions#attach-users-to-group) *refDoc*
+[Attach users to the group](/governance/aws_permissions#attach-users-to-the-group) *refDoc*
+[AWS Permissions](/governance/aws_permissions#aws-permissions) *refDoc*
+[Check if group exists](/governance/aws_permissions#check-if-group-exists) *refDoc*
+[Create the consolidated policy](/governance/aws_permissions#create-the-consolidated-policy) *refDoc*
+[Get the ARN of our custom policy](/governance/aws_permissions#get-the-arn-of-our-custom-policy) *refDoc*
+[Get the policy version details](/governance/aws_permissions#get-the-policy-version-details) *refDoc*
+[Implementation commands:](/governance/aws_permissions#implementation-commands:) *refDoc*
+[List all attached policies](/governance/aws_permissions#list-all-attached-policies) *refDoc*
+[Policies](/governance/aws_permissions#policies) *refDoc*
+[Users](/governance/aws_permissions#users) *refDoc*
+[Verify users in group](/governance/aws_permissions#verify-users-in-group) *refDoc*
+[Access Rights and Responsibilities](/governance/zoneiot_accounts#access-rights-and-responsibilities) *refDoc*
+[Account Details](/governance/zoneiot_accounts#account-details) *refDoc*
+[AWS Authentication Examples](/governance/zoneiot_accounts#aws-authentication-examples) *refDoc*
+[AWS Credentials File Setup](/governance/zoneiot_accounts#aws-credentials-file-setup) *refDoc*
+[AWS Development Rules](/governance/zoneiot_accounts#aws-development-rules) *refDoc*
+[Create a session using a named profile](/governance/zoneiot_accounts#create-a-session-using-a-named-profile) *refDoc*
+[Credentials Management](/governance/zoneiot_accounts#credentials-management) *refDoc*
+[DO NOT use explicit credentials in code](/governance/zoneiot_accounts#do-not-use-explicit-credentials-in-code) *refDoc*
+[Domain: zoneiot.cz](/governance/zoneiot_accounts#domain:-zoneiot.cz) *refDoc*
+[Google Workspace](/governance/zoneiot_accounts#google-workspace) *refDoc*
 [Implementation](/governance/zoneiot_accounts#implementation) *refDoc*
+[Naming Conventions](/governance/zoneiot_accounts#naming-conventions) *refDoc*
 [Preparation](/governance/zoneiot_accounts#preparation) *refDoc*
+[Required Tagging](/governance/zoneiot_accounts#required-tagging) *refDoc*
+[Use the session to create a service client](/governance/zoneiot_accounts#use-the-session-to-create-a-service-client) *refDoc*
 [ZONEIOT Accounts](/governance/zoneiot_accounts#zoneiot-accounts) *refDoc*
 [Analýza rizik](/governance/zoneiot_navrh_projektu_ro#analyza-rizik) *refDoc*
 [Analýza rizik ohrožujících dosažení cíle projektu](/governance/zoneiot_navrh_projektu_ro#analyza-rizik-ohrozujicich-dosazeni-cile-projektu) *refDoc*

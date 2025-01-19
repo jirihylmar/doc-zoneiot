@@ -169,6 +169,7 @@ nav:
   - GOVERNANCE:
     - ZONEIOT Návrh projektu RO: governance/zoneiot_navrh_projektu_ro.md
     - ZONEIOT Accounts: governance/zoneiot_accounts.md
+    - ZONEIOT Accounts: governance/aws_permissions.md
   - DEV COMMON:
     - Solution Development Strategies: development_common/solution_development_strategies.md
     - ZoneIoT Naming Conventions: development_common/zoneiot_naming_conventions.md
@@ -176,10 +177,12 @@ nav:
     - LImits Calculation Storage and Motion RO: development_common/limits_calculations_storage_and_motion.md
     - Limits Calculation Power Consumption RO: development_common/limits_calculations_power_consumption.md
   - DEV DEVICES:
+    - Develop ESP32 Samples: development_devices/develop_esp32_samples.md
     - Minimal Parameters of Devices: development_devices/minimal_parameters_of_devices.md
     - Testing IoT Devices: development_devices/testing_iot_devices.md
   - DEV AWS:
     - AWS Interfaces Definition: development_aws/aws_interfaces_definition.md
+    - AWS IoT Metadata Management: development_aws/aws_iot_metadata_management.md
   - TAGS: tags.md
   - SUPPORT:
     - DICTIONARY: support/dictionary.md

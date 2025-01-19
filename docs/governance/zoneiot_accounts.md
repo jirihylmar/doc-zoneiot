@@ -108,3 +108,85 @@ f2qfvgoak5rn.zoneiot.cz. 3600	IN	RRSIG	NSEC 13 3 3600 20250220213018 20250115104
 f2qfvgoak5rn.zoneiot.cz. 3600	IN	NSEC	zoneiot.cz. CNAME RRSIG NSEC
 ```
 
+## AWS Development Rules
+
+### Account Details
+
+- Account ID: 299025166536
+- Region: eu-central-1.amazonaws.com Europe (Frankfurt)
+- [AWS Account 299025166536 tomi nuke][https://eu-central-1.console.aws.amazon.com/console/home?region=eu-central-1]
+
+## Access Rights and Responsibilities
+
+- You are granted extensive rights within the account
+- We expect personal responsibility in managing account resources
+- You must not delete any resource unless you created it
+- Be mindful that resources incur costs
+  - Common cases are covered by budget
+  - Development costs should be negligible
+  - Running virtual machines can be costly if not managed properly
+  - Consult :team_jirihylmar or :team_lukasorcik when uncertain about costs
+
+### Naming Conventions
+
+- Follow established naming rules when creating resources
+- Use Cloude project documentation (attached to knowledge base) for guidance
+- Describe your use case to Cloude, which will provide appropriate resource names following conventions
+
+### Required Tagging
+
+- You MUST tag every resource with `project:zoneiot`
+  - This is critical for account management and cost monitoring
+- Additional recommended tags:
+  - `version:development`
+  - `version:test`
+  - `version:production`
+
+### Credentials Management
+
+1. After login, generate your AWS credentials
+2. Store credentials in `/home/[username]/.aws/credentials`
+3. Never authorize applications using methods other than profile calls
+4. Profile name has to correspond to your account name, etc. `JiHy__vsb__299`
+
+### AWS Authentication Examples
+
+**✅ CORRECT: Using AWS Profile (Recommended)**
+
+```python
+import boto3
+
+# Create a session using a named profile
+session = boto3.Session(
+    profile_name='my-profile',
+    region_name='eu-central-1'
+)
+
+# Use the session to create a service client
+s3_client = session.client('s3')
+```
+
+```bash
+aws s3 ls --profile 'my-profile'
+```
+
+**❌ INCORRECT: Using Explicit Credentials (Not Acceptable)**
+
+```python
+import boto3
+
+# DO NOT use explicit credentials in code
+session = boto3.Session(
+    aws_access_key_id='YOUR_ACCESS_KEY',
+    aws_secret_access_key='YOUR_SECRET_KEY',
+    region_name='eu-central-1'
+)
+```
+
+### AWS Credentials File Setup
+Create or edit `~/.aws/credentials`:
+```ini
+[my-profile]
+aws_access_key_id = YOUR_ACCESS_KEY
+aws_secret_access_key = YOUR_SECRET_KEY
+```

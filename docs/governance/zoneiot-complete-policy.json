@@ -1,0 +1,98 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "IoTCore",
+            "Effect": "Allow",
+            "Action": [
+                "iot:*",
+                "greengrass:*",
+                "iotanalytics:*",
+                "iotsitewise:*",
+                "iotevents:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "Messaging",
+            "Effect": "Allow",
+            "Action": [
+                "sns:*",
+                "sqs:*",
+                "events:*",
+                "eventbridge:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "Monitoring",
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:*",
+                "logs:*",
+                "xray:*",
+                "applicationinsights:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "Development",
+            "Effect": "Allow",
+            "Action": [
+                "cloudformation:*",
+                "appsync:*",
+                "amplify:*",
+                "cognito-identity:*",
+                "cognito-idp:*",
+                "cognito-sync:*",
+                "apigateway:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "AIServices",
+            "Effect": "Allow",
+            "Action": [
+                "rekognition:*",
+                "transcribe:*",
+                "comprehend:*",
+                "translate:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "Orchestration",
+            "Effect": "Allow",
+            "Action": [
+                "states:*",
+                "stepfunctions:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "SelfServiceIAM",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ChangePassword",
+                "iam:CreateAccessKey",
+                "iam:CreateVirtualMFADevice",
+                "iam:DeactivateMFADevice",
+                "iam:DeleteAccessKey",
+                "iam:DeleteVirtualMFADevice",
+                "iam:EnableMFADevice",
+                "iam:GetUser",
+                "iam:ListAccessKeys",
+                "iam:ListMFADevices",
+                "iam:ListVirtualMFADevices",
+                "iam:ResyncMFADevice",
+                "iam:UpdateAccessKey",
+                "iam:GetAccountPasswordPolicy",
+                "iam:GetAccountSummary"
+            ],
+            "Resource": [
+                "arn:aws:iam::*:user/${aws:username}",
+                "arn:aws:iam::*:mfa/${aws:username}"
+            ]
+        }
+    ]
+}

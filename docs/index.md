@@ -18,7 +18,19 @@ To contribute, use English as the primary language. See [Template](/support/temp
 
 ???+ success "Action Plan Up To Date"
 
-	**OPENED :jirihylmar Thu Jan 16 12:30:53 CEST 2025**
+	**OPENED :team_jirihylmar Sat Jan 18 17:14:01 CEST 2025**
+
+	- [ ] TODO :team_vsb Sat Jan 18 18:59:24 CEST 2025 AWS access is ready, get familiar with [AWS Development Rules](/governance/zoneiot_accounts#aws-development-rules) *refDoc* and test.
+
+	`Results meetings 2024-01-16 and 2024-01-17`
+
+	- in the first phase :team_vsb and :team_mai will focus on a scene detection, not on the `SPZ` detection, see also [Novost, výzkumná nejistota, kreativita, systematičnost a reprodukovatelnost](/governance/zoneiot_navrh_projektu_ro#novost,-vyzkumna-nejistota,-kreativita,-systematicnost-a-reprodukovatelnost) *refDoc*
+	- [Testing IoT Devices](/development_devices/testing_iot_devices#testing-iot-devices) *refDoc* is taken over by :team_martintomis supported by :team_lukaskapicak.
+	- :team_martinlysek will focus on EPS32, ESP32-CAM boars configuration and provision. The governing document is [Develop ESP32 Samples](/development_devices/develop_esp32_samples#develop-esp32-samples) *refDoc*.
+	- :team_jakubjalowiczor will be responsible for creating applications for IoT management.
+	- [x] TODO :team_jirihylmar Sat Jan 18 18:58:08 CEST 2025 AWS access
+
+	**OPENED :team_jirihylmar Thu Jan 16 12:30:53 CEST 2025**
 
 	`Agenda 2024-01-16`
 
