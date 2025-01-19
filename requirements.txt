@@ -1,3 +1,4 @@
+# OPENED :jirihylmar Sun Jan 19 19:43:59 CEST 2025 major fuck-up mkdoc stopped rendering links, anything in [] is ignored. Needed to revert to version of Docker file.
 # Core dependencies
 Markdown==3.7
 mkdocs==1.6.1
