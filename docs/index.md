@@ -12,7 +12,7 @@ hide:
 <figure style='text-align: center;'><img src='https://vsbcda-dandra-com-intite-sss-infdev-wfs-182059100462.s3.eu-west-1.amazonaws.com/06d91fc8-e7dd-40b9-ae5c-9fb8f5f71541__media_items/logos_vsb/logo_440_FEI_02.png' alt='logo_440_FEI_02.png' style='width: 700px; height: auto;'></figure>
 
 **Expert system for remote monitoring of road workplaces using IoT and advanced image processing technology**  
-The project's objective is the research and subsequent development of smart components, which in their final state will form an independent system for monitoring and detecting temporary traffic signage in traffic restrictions, such as sets of signal lights, warning lights, and traffic signs in specific configurations. The system will utilize data analysis gathered from a network of sensors or images from unique cameras placed in the target area, combining and evaluating this information. The mission of the system, which will be pilot tested, is to detect the extent of damage, displacement, and the condition of traffic signage, including recording the damage event. All information about the events will be available to service organizations and third parties. See [ZONEIOT Návrh Projektu](/governance/zoneiot_navrh_projektu_ro#zoneiot-navrh-projektu) *refDoc* for details.
+The project's objective is the research and subsequent development of smart components, which in their final state will form an independent system for monitoring and detecting temporary traffic signage in traffic restrictions, such as sets of signal lights, warning lights, and traffic signs in specific configurations. The system will utilize data analysis gathered from a network of sensors or images from unique cameras placed in the target area, combining and evaluating this information. The mission of the system, which will be pilot tested, is to detect the extent of damage, displacement, and the condition of traffic signage, including recording the damage event. All information about the events will be available to service organizations and third parties. See [ZONEIOT Návrh Projektu](governance/zoneiot_navrh_projektu_ro#zoneiot-navrh-projektu) *refDoc* for details.
 
 To contribute, use English as the primary language. See [Template](/support/template#template) *refDoc*.
 
@@ -26,7 +26,7 @@ To contribute, use English as the primary language. See [Template](/support/temp
 
 	- in the first phase :team_vsb and :team_mai will focus on a scene detection, not on the `SPZ` detection, see also [Novost, výzkumná nejistota, kreativita, systematičnost a reprodukovatelnost](/governance/zoneiot_navrh_projektu_ro#novost,-vyzkumna-nejistota,-kreativita,-systematicnost-a-reprodukovatelnost) *refDoc*
 	- [Testing IoT Devices](/development_devices/testing_iot_devices#testing-iot-devices) *refDoc* is taken over by :team_martintomis supported by :team_lukaskapicak.
-	- :team_martinlysek will focus on EPS32, ESP32-CAM boars configuration and provision. The governing document is [Develop ESP32 Samples](/development_devices/develop_esp32_samples.md#develop-esp32-samples) *refDoc*.
+	- :team_martinlysek will focus on EPS32, ESP32-CAM boars configuration and provision. The governing document is [Develop ESP32 Samples](/development_devices/develop_esp32_samples#develop-esp32-samples) *refDoc*.
 	- :team_jakubjalowiczor will be responsible for creating applications for IoT management.
 	- [x] TODO :team_jirihylmar Sat Jan 18 18:58:08 CEST 2025 AWS access
 
