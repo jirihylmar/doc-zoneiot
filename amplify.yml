@@ -3,23 +3,22 @@ frontend:
   phases:
     preBuild:
       commands:
-        - python3 -m pip freeze > pip_versions.txt
         - python3 -m pip install --upgrade pip
+        - python3 -m pip install markdown>=3.4.0
         - python3 -m pip install -r requirements.txt
         - git config --global safe.directory /codebuild/output/src*/src/*
     build:
       commands:
         - echo "Python version:" && python3 --version
         - echo "Pip version:" && pip --version
-        - echo "Mkdocs version:" && mkdocs --version
+        - echo "Markdown version:" && python3 -c "import markdown; print(markdown.version)"
         - echo "Testing markdown processing:" 
-        - python3 -c "import markdown; print(markdown.version); print(markdown.markdown('![test](test.png)'))"
-        - echo "Installed packages:" && cat pip_versions.txt
-        - python3 -m mkdocs build --verbose --strict
+        - python3 -c "import markdown; print(markdown.markdown('![test](test.png)'))"
+        - mkdocs build --verbose --strict
   artifacts:
     baseDirectory: site
     files:
       - '**/*'
   cache:
-    paths:
+    paths: 
       - ~/.cache/pip

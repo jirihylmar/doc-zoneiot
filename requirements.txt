@@ -1,5 +1,5 @@
+markdown>=3.4.0
 mkdocs>=1.4.0
-markdown>=3.3
 mkdocs-material==8.5.11
 mkdocs-git-revision-date-plugin==2.3.2
 mkdocs-git-revision-date-localized-plugin==1.1.0
@@ -10,3 +10,4 @@ mkdocs-include-markdown-plugin==3.9.1
 mkdocs-gen-files==0.5.0
 mkdocs-bibtex==2.8.2
 mkdocs-print-site-plugin==2.3.4
+pymdown-extensions>=9.4
