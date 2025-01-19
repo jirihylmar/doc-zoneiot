@@ -1,6 +1,3 @@
-hylmarj@jirih-hp-zbook-14u-g6:~/doc-zoneiot$ docker exec -it eb960f120f9f /bin/sh
-/docs # pip freeze > requirements_exact.txt
-/docs # cat requirements_exact.txt
 babel==2.16.0
 boto3==1.35.59
 botocore==1.35.59
