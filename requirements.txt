@@ -4,9 +4,7 @@ mkdocs-material==8.5.11
 mkdocs-git-revision-date-plugin==0.3.2
 mkdocs-git-revision-date-localized-plugin==1.1.0
 markdown-lightbox==2.0.1
-boto3==1.29.165
-botocore==1.31.81
-s3transfer>=0.7.0,<0.8.0
+boto3==1.26.137
 mkdocstrings==0.20.0
 mkdocs-include-markdown-plugin==3.9.1
 mkdocs-gen-files==0.5.0
