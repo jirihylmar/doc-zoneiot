@@ -3,6 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - python3 -m pip freeze > pip_versions.txt
         - python3 -m pip install --upgrade pip
         - python3 -m pip install -r requirements.txt --user
         - export PATH="/root/.local/bin:$PATH"
