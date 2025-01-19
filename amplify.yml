@@ -11,7 +11,7 @@ frontend:
       commands:
         - echo "Python version:" && python3 --version
         - echo "Pip version:" && pip --version
-        - echo "Markdown version:" && python3 -c "import markdown; print(markdown.version)"
+        - echo "Markdown version:" && python3 -c "import markdown; print(markdown.__version__)"
         - echo "Testing markdown processing:" 
         - python3 -c "import markdown; print(markdown.markdown('![test](test.png)'))"
         - mkdocs build --verbose --strict
