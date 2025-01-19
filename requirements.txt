@@ -1,7 +1,7 @@
 markdown>=3.4.0
 mkdocs>=1.4.0
 mkdocs-material==8.5.11
-mkdocs-git-revision-date-plugin==2.3.2
+mkdocs-git-revision-date-plugin==0.3.2
 mkdocs-git-revision-date-localized-plugin==1.1.0
 markdown-lightbox==1.0.0
 boto3==1.26.137
