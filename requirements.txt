@@ -1,10 +1,12 @@
--e git+https://github.com/squidfunk/mkdocs-material.git@8.5.11#egg=mkdocs-material
-mkdocs-git-revision-date-plugin
-mkdocs-git-revision-date-localized-plugin
-git+https://github.com/aleksan4eg/markdown-lightbox.git
-boto3
-mkdocstrings
-mkdocs-include-markdown-plugin
-mkdocs-gen-files
-mkdocs-bibtex
-mkdocs-print-site-plugin
+mkdocs>=1.4.0
+markdown>=3.3
+mkdocs-material==8.5.11
+mkdocs-git-revision-date-plugin==2.3.2
+mkdocs-git-revision-date-localized-plugin==1.1.0
+markdown-lightbox==1.0.0
+boto3==1.26.137
+mkdocstrings==0.20.0
+mkdocs-include-markdown-plugin==3.9.1
+mkdocs-gen-files==0.5.0
+mkdocs-bibtex==2.8.2
+mkdocs-print-site-plugin==2.3.4

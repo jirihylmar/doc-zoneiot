@@ -5,15 +5,17 @@ frontend:
       commands:
         - python3 -m pip freeze > pip_versions.txt
         - python3 -m pip install --upgrade pip
-        - python3 -m pip install -r requirements.txt --user
-        - export PATH="/root/.local/bin:$PATH"
+        - python3 -m pip install -r requirements.txt
         - git config --global safe.directory /codebuild/output/src*/src/*
     build:
       commands:
-        - echo "Python path:" && which python3
-        - echo "Mkdocs path:" && which mkdocs
+        - echo "Python version:" && python3 --version
+        - echo "Pip version:" && pip --version
+        - echo "Mkdocs version:" && mkdocs --version
+        - echo "Testing markdown processing:" 
+        - python3 -c "import markdown; print(markdown.version); print(markdown.markdown('![test](test.png)'))"
         - echo "Installed packages:" && cat pip_versions.txt
-        - mkdocs build --verbose
+        - python3 -m mkdocs build --verbose --strict
   artifacts:
     baseDirectory: site
     files:
@@ -21,4 +23,3 @@ frontend:
   cache:
     paths:
       - ~/.cache/pip
-      - ~/.local/lib/python3.10/site-packages
