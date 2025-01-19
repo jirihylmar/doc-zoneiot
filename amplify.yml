@@ -3,6 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - python3 -m pip cache purge  # Add this line first
         - python3 -m pip install --upgrade pip
         - python3 -m pip install -r requirements.txt --user
         - export PATH="/root/.local/bin:$PATH"
