@@ -27,7 +27,7 @@ To contribute, use English as the primary language. See [Template](/support/temp
 	- First phase of the research. :team_vsb and :team_mai will focus on a scene detection, not on the `Registration plate` detection, see also [Novost, výzkumná nejistota, kreativita, systematičnost a reprodukovatelnost](/governance/zoneiot_navrh_projektu_ro/#novost-vyzkumna-nejistota-kreativita-systematicnost-a-reprodukovatelnost) *refDoc*
 	- [Testing IoT Devices](/development_devices/testing_iot_devices#testing-iot-devices) *refDoc* is taken over by :team_martintomis supported by :team_lukaskapicak.
 	- :team_martinlysek will focus on EPS32, ESP32-CAM boars configuration and provision. The governing document is [Develop ESP32 Samples](/development_devices/develop_esp32_samples#develop-esp32-samples) *refDoc*.
-	- :team_jakubjalowiczor will be responsible for creating applications for IoT management.
+	- :team_jakubjalowiczor will be responsible for creating applications for IoT management [AWS IoT Metadata Management](/development_aws/aws_iot_metadata_management#aws-iot-metadata-management) *refDoc*.
 	- [x] TODO :team_jirihylmar Sat Jan 18 18:58:08 CEST 2025 AWS access
 
 	**OPENED :team_jirihylmar Thu Jan 16 12:30:53 CEST 2025**

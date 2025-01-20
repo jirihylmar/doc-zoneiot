@@ -1,4 +1,11 @@
-# OPENED :jirihylmar Sun Jan 19 19:43:59 CEST 2025 major fuck-up mkdoc stopped rendering links, anything in [] is ignored. Needed to revert to version of Docker file.
+# OPENED :jirihylmar Sun Jan 19 19:43:59 CEST 2025 major fuck-up. mkdoc stopped rendering links, anything in [] is ignored. Needed to revert to version of Docker file.
+#hylmarj@jirih-hp-zbook-14u-g6:~/doc-zoneiot$ docker ps
+#CONTAINER ID   IMAGE                                   COMMAND                  CREATED          STATUS          PORTS                    NAMES
+#eb960f120f9f   danse4mobility/mkdocs-material:latest   "/entrypoint.sh serve"   36 minutes ago   Up 36 minutes   0.0.0.0:8000->8000/tcp   eager_beaver
+#hylmarj@jirih-hp-zbook-14u-g6:~/doc-zoneiot$ docker exec -it eb960f120f9f /bin/sh
+#/docs # pip freeze > requirements_exact.txt
+#/docs # cat requirements_exact.txt
+
 # Core dependencies
 Markdown==3.7
 mkdocs==1.6.1

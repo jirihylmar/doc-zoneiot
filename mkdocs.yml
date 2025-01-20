@@ -169,7 +169,7 @@ nav:
   - GOVERNANCE:
     - ZONEIOT Návrh projektu RO: governance/zoneiot_navrh_projektu_ro.md
     - ZONEIOT Accounts: governance/zoneiot_accounts.md
-    - ZONEIOT Accounts: governance/aws_permissions.md
+    - AWS Permissions: governance/aws_permissions.md
   - DEV COMMON:
     - Solution Development Strategies: development_common/solution_development_strategies.md
     - ZoneIoT Naming Conventions: development_common/zoneiot_naming_conventions.md
