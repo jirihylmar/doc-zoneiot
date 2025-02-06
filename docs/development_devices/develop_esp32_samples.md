@@ -19,7 +19,7 @@ Purpose:
 
 ## Introduction Develop ESP32 Samples
 
-- [ ] TODO :team_martinlysek 2025-01-18 17:27:01 purchase EPS32 boars and kits. Implement sample codes, commission to IoT core.
+- [x] TODO :team_martinlysek 2025-01-18 17:27:01 purchase EPS32 boars and kits. Implement sample codes, commission to IoT core.
 
 **Repository Links**
 

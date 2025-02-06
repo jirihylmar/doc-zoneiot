@@ -9,6 +9,7 @@ Purpose:
 - Helper to include reference links to documentation's chapters.
 ```
 
+[Action Plan](#action-plan) *refDoc*
 [ZONEIOT](#zoneiot) *refDoc*
 [AWS Interfaces Definition](/development_aws/aws_interfaces_definition#aws-interfaces-definition) *refDoc*
 [Introduction AWS Interfaces Definition](/development_aws/aws_interfaces_definition#introduction-aws-interfaces-definition) *refDoc*
@@ -91,6 +92,7 @@ Purpose:
 [Photo test samples](/development_devices/minimal_parameters_of_devices#photo-test-samples) *refDoc*
 [Related resources](/development_devices/minimal_parameters_of_devices#related-resources) *refDoc*
 [Introduction Testing IoT Devices](/development_devices/testing_iot_devices#introduction-testing-iot-devices) *refDoc*
+[Testing Devices List](/development_devices/testing_iot_devices#testing-devices-list) *refDoc*
 [Testing IoT Devices](/development_devices/testing_iot_devices#testing-iot-devices) *refDoc*
 [Attach core managed policies](/governance/aws_permissions#attach-core-managed-policies) *refDoc*
 [Attach our custom consolidated policy](/governance/aws_permissions#attach-our-custom-consolidated-policy) *refDoc*
@@ -282,4 +284,6 @@ Purpose:
 [Structure of the raw page in `mkdocs`](/support/template#structure-of-the-raw-page-in-mkdocs) *refDoc*
 [Template](/support/template#template) *refDoc*
 [Tags](/tags#tags) *refDoc*
+[Completed](/todo#completed) *refDoc*
+[Opened](/todo#opened) *refDoc*
 [TODO](/todo#todo) *refDoc*

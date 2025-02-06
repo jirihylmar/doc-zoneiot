@@ -16,11 +16,29 @@ The project's objective is the research and subsequent development of smart comp
 
 To contribute, use English as the primary language. See [Template](/support/template#template) *refDoc*.
 
+## Action Plan
+
 ???+ success "Action Plan Up To Date"
+
+	**OPENED :jirihylmar Thu Feb 06 10:00:23 CEST 2025**
+
+	`Agenda 2024-02-06`
+
+	- tasks review, QA
+	- !!! :team_vsb all codes (variables, names, comments) has to be in English.
+	- !!! :team_vsb update mkdocs with results. Method `we do it at the end` is not acceptable. In case page or task is missing, or does not fit logic, edits can be done. Everybody is expected to be able to pull / push to `mkdocs`. **Unless agreed otherwise, every team member has its own page(s) related to tasks, to minimize push pull conflicts**. In case you do not have an access to the repo get it.
+
+	**`Results meetings 2024-01-30`**
+
+	- [ ] TODO :team_lukasorcik 2025-01-30 10:41:17 new AWS account dedicated to the ZONEIOT project.
+	- [ ] TODO :team_jakubjalowiczor metadata frontend implementation plan.
+	- [ ] TODO :team_lukaskapicak 2025-01-30 10:40:06 establish testing polygon with :team_mai Radim Raška 797 820 006.
+	- [ ] TODO :team_martinlysek 2025-01-30 10:40:11 messaging, preassigned ULR, measure consumption fro que / s3 write scenarios
+	- [x] TODO :jirihylmar 2025-01-30 10:41:56 created AWS IoT core rule, messaging rules, lambda preassigned url, see https://github.com/jirihylmar/zoneiot-iotsystems-infdev
 
 	**OPENED :team_jirihylmar Sat Jan 18 17:14:01 CEST 2025**
 
-	- [ ] TODO :team_vsb Sat Jan 18 18:59:24 CEST 2025 AWS access is ready, get familiar with [AWS Development Rules](/governance/zoneiot_accounts#aws-development-rules) *refDoc* and test.
+	- [x] TODO :team_vsb Sat Jan 18 18:59:24 CEST 2025 AWS access is ready, get familiar with [AWS Development Rules](/governance/zoneiot_accounts#aws-development-rules) *refDoc* and test.
 
 	**`Results meetings 2024-01-16 and 2024-01-17`**
 

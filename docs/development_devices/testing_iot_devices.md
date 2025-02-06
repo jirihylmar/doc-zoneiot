@@ -18,7 +18,7 @@ Purpose:
 
 ## Introduction Testing IoT Devices
 
-- [ ] TODO :team_martintomis 2025-01-18 17:22:56 submit first batch of testing IoT devices to be purchased for initial development phase.
+- [x] TODO :team_martintomis 2025-01-18 17:22:56 submit first batch of testing IoT devices to be purchased for initial development phase.
 
 Inputs:
 
@@ -26,5 +26,10 @@ Inputs:
 - Meetings' discussions.
 - Choice in terms of AWS Cloud Services compatibility seems to be more about manufacture (Huawei blacklist etc.) rather then particular solution. Espressif or Nordic seem to be a good choice
 https://partners.amazonaws.com/search/qualified-devices
+
+## Testing Devices List
+
+TESTING DEVICES: https://docs.google.com/spreadsheets/d/15vrrqdTxCBJKaWYfamgEOHOFQsGEaBODijGmyrK7wQs/edit?gid=0#gid=0
+
 
 

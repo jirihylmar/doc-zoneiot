@@ -60,6 +60,10 @@ Mailing list:
 
 marek.scerba@mai-systems.cz martin.hajek@mai-systems.cz lukas.orcik@vsb.cz luko26@gmail.com lukas.kapicak@vsb.cz jiri.hylmar@vsb.cz jiri.hylmar@gmail.com miroslav.voznak@vsb.cz miroslav.voznak@g.vsb.cz martin.lysek.st@vsb.cz martin.lysek.st@g.vsb.cz tomas.cervenka@mai-systems.cz jakub.jalowiczor@vsb.cz martin.tomis@vsb.cz PC_07@seznam.cz
 
+Github
+- https://github.com/Neo2GHOST Martin Tomis
+- kap063 nebo na e-mail "lukas.kapicak@vsb.cz"
+
 ## Planned Project Activities
 
 Project activities are fixed. They will reported in the project progress report.
