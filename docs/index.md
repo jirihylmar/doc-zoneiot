@@ -20,21 +20,36 @@ To contribute, use English as the primary language. See [Template](/support/temp
 
 ???+ success "Action Plan Up To Date"
 
+	**OPENED :jirihylmar Mon Feb 24 07:11:42 CEST 2025**
+
+	`Agenda 2024-02-27`
+
+	- :team_vsb new resources from :team_mai available [ZONEIOT_MEDIA/LAYOUT UZAVÍREK](https://drive.google.com/drive/u/5/folders/1UAEVp2zsiw29rymtvcc4KPQ4NJrk9_hx)
+	- :team_vsb GOOGLE DRIVE USAGE. In case new root is established in master@zoneiot.cz google drive workspace it has to be prefixed with `ZONEIOT_*`
+	- :team_vsb Cloude Anthropic available. Shared login master@zoneiot.cz. Need to work under named projects. Credits for API calls.
+	- :team_vsb The new AWS Account no. `565393049593` dev_zoneiot for implementation and handover to the partner available. After the first phase of testing will be finished, agenda will be transferred to this account.
+	- [ ] TODO :jirihylmar Mon Feb 24 14:08:57 CEST 2025 establish company GitHub. All software has to be available via github. Use personal accounts and share projects with team members for now.
+	- :team_vsb All tests related data and media has to be available on AWS S3. Logic has to correspond to methods for storing data and media
+	- :team_vsb In case other than AWS resources are needed, they need to be stable and documented in [https://doc.zoneiot.cz/governance/zoneiot_accounts/](https://doc.zoneiot.cz/governance/zoneiot_accounts/)
+	- [ ] TODO Mon Feb 24 14:19:34 CEST 2025 :team_vsb Established task [Evaluate Competitive Commercial Solutions](/development_common/evaluate_competitive_commercial_solutions#evaluate-competitive-commercial-solutions) *refDoc*. The task will be assigned to resolvers in the future.
+	- :team_vsb The task [AWS IoT Metadata Management](/development_aws/aws_iot_metadata_management#aws-iot-metadata-management) *refDoc* transferred from :team_jakubjalowiczor to :team_lukasorcik and :team_jirihylmar
+
 	**OPENED :jirihylmar Thu Feb 06 10:00:23 CEST 2025**
 
 	`Agenda 2024-02-06`
 
+	- :team_vsb this documentation address mapped to https://www.doc.zoneiot.cz
 	- tasks review, QA
 	- !!! :team_vsb all codes (variables, names, comments) has to be in English.
 	- !!! :team_vsb update mkdocs with results. Method `we do it at the end` is not acceptable. In case page or task is missing, or does not fit logic, edits can be done. Everybody is expected to be able to pull / push to `mkdocs`. **Unless agreed otherwise, every team member has its own page(s) related to tasks, to minimize push pull conflicts**. In case you do not have an access to the repo get it.
 
 	**`Results meetings 2024-01-30`**
 
-	- [ ] TODO :team_lukasorcik 2025-01-30 10:41:17 new AWS account dedicated to the ZONEIOT project.
-	- [ ] TODO :team_jakubjalowiczor metadata frontend implementation plan.
+	- [x] TODO :team_lukasorcik 2025-01-30 10:41:17 new AWS account dedicated to the ZONEIOT project.
+	- [x] TODO :team_jakubjalowiczor metadata frontend implementation plan.
 	- [ ] TODO :team_lukaskapicak 2025-01-30 10:40:06 establish testing polygon with :team_mai Radim Raška 797 820 006.
-	- [ ] TODO :team_martinlysek 2025-01-30 10:40:11 messaging, preassigned ULR, measure consumption fro que / s3 write scenarios
-	- [x] TODO :jirihylmar 2025-01-30 10:41:56 created AWS IoT core rule, messaging rules, lambda preassigned url, see https://github.com/jirihylmar/zoneiot-iotsystems-infdev
+	- [ ] TODO :team_martinlysek 2025-01-30 10:40:11 messaging, preassigned ULR, measure power consumption for que / s3 write scenarios
+	- [x] TODO :team_jirihylmar 2025-01-30 10:41:56 created AWS IoT core rule, messaging rules, lambda preassigned url, see https://github.com/jirihylmar/zoneiot-iotsystems-infdev
 
 	**OPENED :team_jirihylmar Sat Jan 18 17:14:01 CEST 2025**
 

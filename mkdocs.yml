@@ -175,7 +175,8 @@ nav:
     - ZoneIoT Naming Conventions: development_common/zoneiot_naming_conventions.md
     - ZONEIOT Market Landscape RO: development_common/zoneiot_market_landscape_ro.md
     - LImits Calculation Storage and Motion RO: development_common/limits_calculations_storage_and_motion.md
-    - Limits Calculation Power Consumption RO: development_common/limits_calculations_power_consumption.md
+    - Limits Calculation Power Consumption: development_common/limits_calculations_power_consumption.md
+    - Platform Comparison for IoT Deployments: development_common/platform_comparison_for_iot_deployments.md
   - DEV DEVICES:
     - Develop ESP32 Samples: development_devices/develop_esp32_samples.md
     - Minimal Parameters of Devices: development_devices/minimal_parameters_of_devices.md

@@ -15,16 +15,35 @@ Purpose:
 [Introduction AWS Interfaces Definition](/development_aws/aws_interfaces_definition#introduction-aws-interfaces-definition) *refDoc*
 [AWS IoT Metadata Management](/development_aws/aws_iot_metadata_management#aws-iot-metadata-management) *refDoc*
 [Introduction AWS IoT Metadata Management](/development_aws/aws_iot_metadata_management#introduction-aws-iot-metadata-management) *refDoc*
+[Evaluate Competitive Commercial Solutions](/development_common/evaluate_competitive_commercial_solutions#evaluate-competitive-commercial-solutions) *refDoc*
+[Third Party Systems for Evaluation](/development_common/evaluate_competitive_commercial_solutions#third-party-systems-for-evaluation) *refDoc*
+[1. Sleep Mode](/development_common/limits_calculations_power_consumption#1-sleep-mode) *refDoc*
+[2. Event Processing](/development_common/limits_calculations_power_consumption#2-event-processing) *refDoc*
+[3. WiFi Transmission](/development_common/limits_calculations_power_consumption#3-wifi-transmission) *refDoc*
+[4. Daily Totals](/development_common/limits_calculations_power_consumption#4-daily-totals) *refDoc*
+[5. Time Distribution](/development_common/limits_calculations_power_consumption#5-time-distribution) *refDoc*
+[Basic Formula](/development_common/limits_calculations_power_consumption#basic-formula) *refDoc*
 [Battery Configuration](/development_common/limits_calculations_power_consumption#battery-configuration) *refDoc*
-[Battery Life Estimates](/development_common/limits_calculations_power_consumption#battery-life-estimates) *refDoc*
-[Daily Breakdown](/development_common/limits_calculations_power_consumption#daily-breakdown) *refDoc*
+[Battery Life Calculation](/development_common/limits_calculations_power_consumption#battery-life-calculation) *refDoc*
+[Calculation Method](/development_common/limits_calculations_power_consumption#calculation-method) *refDoc*
+[Core Variables](/development_common/limits_calculations_power_consumption#core-variables) *refDoc*
+[Detailed Scenarios](/development_common/limits_calculations_power_consumption#detailed-scenarios) *refDoc*
+[High Traffic](/development_common/limits_calculations_power_consumption#high-traffic) *refDoc*
 [Input Parameters](/development_common/limits_calculations_power_consumption#input-parameters) *refDoc*
 [Limits Calculation Power Consumption](/development_common/limits_calculations_power_consumption#limits-calculation-power-consumption) *refDoc*
+[Low Traffic](/development_common/limits_calculations_power_consumption#low-traffic) *refDoc*
+[Medium Traffic](/development_common/limits_calculations_power_consumption#medium-traffic) *refDoc*
+[Notes and Assumptions](/development_common/limits_calculations_power_consumption#notes-and-assumptions) *refDoc*
 [Operational Parameters](/development_common/limits_calculations_power_consumption#operational-parameters) *refDoc*
 [Power Configuration](/development_common/limits_calculations_power_consumption#power-configuration) *refDoc*
 [Power Consumption Analysis](/development_common/limits_calculations_power_consumption#power-consumption-analysis) *refDoc*
-[Time Distribution](/development_common/limits_calculations_power_consumption#time-distribution) *refDoc*
+[Setup Phase](/development_common/limits_calculations_power_consumption#setup-phase) *refDoc*
+[Summary Table](/development_common/limits_calculations_power_consumption#summary-table) *refDoc*
 [Traffic Scenarios Analysis](/development_common/limits_calculations_power_consumption#traffic-scenarios-analysis) *refDoc*
+[Transmission Phase](/development_common/limits_calculations_power_consumption#transmission-phase) *refDoc*
+[Variables and Formulas](/development_common/limits_calculations_power_consumption#variables-and-formulas) *refDoc*
+[Very High Traffic](/development_common/limits_calculations_power_consumption#very-high-traffic) *refDoc*
+[Very Low Traffic](/development_common/limits_calculations_power_consumption#very-low-traffic) *refDoc*
 [Current Speed Analysis (30.0 km/h)](/development_common/limits_calculations_storage_and_motion#current-speed-analysis-(30.0-km/h)) *refDoc*
 [Image Configuration](/development_common/limits_calculations_storage_and_motion#image-configuration) *refDoc*
 [Image Size](/development_common/limits_calculations_storage_and_motion#image-size) *refDoc*
@@ -35,6 +54,33 @@ Purpose:
 [Storage Capacity](/development_common/limits_calculations_storage_and_motion#storage-capacity) *refDoc*
 [Storage Capacity Analysis](/development_common/limits_calculations_storage_and_motion#storage-capacity-analysis) *refDoc*
 [Storage Configuration](/development_common/limits_calculations_storage_and_motion#storage-configuration) *refDoc*
+[AWS IoT Core Integration](/development_common/platform_comparison_for_iot_deployments#aws-iot-core-integration) *refDoc*
+[Base Specifications](/development_common/platform_comparison_for_iot_deployments#base-specifications) *refDoc*
+[Conclusion](/development_common/platform_comparison_for_iot_deployments#conclusion) *refDoc*
+[Development Workflow Comparison](/development_common/platform_comparison_for_iot_deployments#development-workflow-comparison) *refDoc*
+[ESP32](/development_common/platform_comparison_for_iot_deployments#esp32) *refDoc*
+[ESP32](/development_common/platform_comparison_for_iot_deployments#esp32) *refDoc*
+[ESP32 (Espressif Official)](/development_common/platform_comparison_for_iot_deployments#esp32-(espressif-official)) *refDoc*
+[ESP32 Development and Deployment](/development_common/platform_comparison_for_iot_deployments#esp32-development-and-deployment) *refDoc*
+[ESP32 Production Flow](/development_common/platform_comparison_for_iot_deployments#esp32-production-flow) *refDoc*
+[ESP32 Risks](/development_common/platform_comparison_for_iot_deployments#esp32-risks) *refDoc*
+[Hardware Specifications and Power Analysis](/development_common/platform_comparison_for_iot_deployments#hardware-specifications-and-power-analysis) *refDoc*
+[Platform Comparison for IoT Deployments](/development_common/platform_comparison_for_iot_deployments#platform-comparison-for-iot-deployments) *refDoc*
+[Power Consumption (2000mAh battery)](/development_common/platform_comparison_for_iot_deployments#power-consumption-(2000mah-battery)) *refDoc*
+[Raspberry Pi Zero 2 W (Official)](/development_common/platform_comparison_for_iot_deployments#raspberry-pi-zero-2-w-(official)) *refDoc*
+[Raspberry Pi Zero 2 W Development and Deployment](/development_common/platform_comparison_for_iot_deployments#raspberry-pi-zero-2-w-development-and-deployment) *refDoc*
+[Recommendations](/development_common/platform_comparison_for_iot_deployments#recommendations) *refDoc*
+[Risk Analysis](/development_common/platform_comparison_for_iot_deployments#risk-analysis) *refDoc*
+[RPi Zero 2 W](/development_common/platform_comparison_for_iot_deployments#rpi-zero-2-w) *refDoc*
+[RPi Zero 2 W](/development_common/platform_comparison_for_iot_deployments#rpi-zero-2-w) *refDoc*
+[RPi Zero 2 W Production Flow](/development_common/platform_comparison_for_iot_deployments#rpi-zero-2-w-production-flow) *refDoc*
+[RPi Zero 2 W Risks](/development_common/platform_comparison_for_iot_deployments#rpi-zero-2-w-risks) *refDoc*
+[Storage and OS Requirements](/development_common/platform_comparison_for_iot_deployments#storage-and-os-requirements) *refDoc*
+[Total Cost of Ownership Analysis](/development_common/platform_comparison_for_iot_deployments#total-cost-of-ownership-analysis) *refDoc*
+[Traffic Scenarios Battery Life](/development_common/platform_comparison_for_iot_deployments#traffic-scenarios-battery-life) *refDoc*
+[Use ESP32 for:](/development_common/platform_comparison_for_iot_deployments#use-esp32-for:) *refDoc*
+[Use RPi Zero 2 W for:](/development_common/platform_comparison_for_iot_deployments#use-rpi-zero-2-w-for:) *refDoc*
+[Vendor-Supported Development Ecosystems](/development_common/platform_comparison_for_iot_deployments#vendor-supported-development-ecosystems) *refDoc*
 [Cleaning Camera Screens](/development_common/solution_development_strategies#cleaning-camera-screens) *refDoc*
 [Early Stage Development IoT](/development_common/solution_development_strategies#early-stage-development-iot) *refDoc*
 [Solution Development Strategies](/development_common/solution_development_strategies#solution-development-strategies) *refDoc*
@@ -113,9 +159,11 @@ Purpose:
 [AWS Authentication Examples](/governance/zoneiot_accounts#aws-authentication-examples) *refDoc*
 [AWS Credentials File Setup](/governance/zoneiot_accounts#aws-credentials-file-setup) *refDoc*
 [AWS Development Rules](/governance/zoneiot_accounts#aws-development-rules) *refDoc*
+[Cloude AI](/governance/zoneiot_accounts#cloude-ai) *refDoc*
 [Create a session using a named profile](/governance/zoneiot_accounts#create-a-session-using-a-named-profile) *refDoc*
 [Credentials Management](/governance/zoneiot_accounts#credentials-management) *refDoc*
 [DO NOT use explicit credentials in code](/governance/zoneiot_accounts#do-not-use-explicit-credentials-in-code) *refDoc*
+[Documentation](/governance/zoneiot_accounts#documentation) *refDoc*
 [Domain: zoneiot.cz](/governance/zoneiot_accounts#domain:-zoneiot.cz) *refDoc*
 [Google Workspace](/governance/zoneiot_accounts#google-workspace) *refDoc*
 [Implementation](/governance/zoneiot_accounts#implementation) *refDoc*

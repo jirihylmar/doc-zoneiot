@@ -21,11 +21,11 @@ Purpose:
 
 ## Implementation
 
-- [Documentation home](https://main.d3mzmv7u6qg7cc.amplifyapp.com/)
-- [Github Documentation](https://github.com/jirihylmar/hyl-zoneiot)
+- [Documentation home https://doc.zoneiot.cz/](https://doc.zoneiot.cz/)
+- [Github Documentation](https://github.com/jirihylmar/doc-zoneiot)
 - [AWS Account 299025166536 tomi nuke][https://eu-central-1.console.aws.amazon.com/console/home?region=eu-central-1]
 
-- [ ] TODO :team_lukasorcik Sat Jan 04 16:03:44 CEST 2025 delete unused buckets created within 299025166536
+- [x] TODO :team_lukasorcik Sat Jan 04 16:03:44 CEST 2025 delete unused buckets created within 299025166536
 
 ## Preparation
 
@@ -33,13 +33,23 @@ Purpose:
 - [Helper Project Set up Google Sheet](https://docs.google.com/spreadsheets/d/1quF0iLunlmB0w8HKcsvX6FqdJHoISVJVCHrOZpFxx4s/edit?gid=1567752248#gid=1567752248)
 - [ISTA project](https://ista.tacr.cz/ISTA/action/Dashboard/ExternalNew/?actionId=5r64jc&nbl=true&uselastresult=true&_browserSessionID=&lang=)
 
+## Documentation
 
 Documentation https://main.d3mzmv7u6qg7cc.amplifyapp.com/ protection
+
+Documentation https://doc.zoneiot.cz/ protection
 
 ```
 zoneiot.cz
 Zoneiot2025
 ```
+## Cloude AI
+
+https://claude.ai/new
+
+https://console.anthropic.com
+
+Google Account SignIn: master@zoneiot.cz
 
 ## Domain: zoneiot.cz
 
