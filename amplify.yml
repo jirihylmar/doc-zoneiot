@@ -4,11 +4,11 @@ frontend:
     preBuild:
       commands:
         - python3 -m pip install --upgrade pip
+        - export PATH="$PATH:/root/.local/bin"  # Add this line
         - python3 -m pip install -r requirements.txt --user
-        - export PATH="/root/.local/bin:$PATH"
-        - git config --global safe.directory /codebuild/output/src*/src/*
     build:
       commands:
+        - export PATH="$PATH:/root/.local/bin"  # Add this line
         - mkdocs build --verbose
   artifacts:
     baseDirectory: site
