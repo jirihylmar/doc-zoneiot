@@ -6,7 +6,7 @@ tags:
 # TODO
 ```yaml
 Author: :team_jirihylmar
-Created: 2025-02-24 14:25:27
+Created: 2025-02-24 14:40:49
 Updated: 1970-01-01 00:00:00
 Master: mkdocs
 Purpose:

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+ 
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">OV5640 Camera Sensor Window Mode</text>
+ 
+  <!-- Full Sensor Area -->
+  <rect x="100" y="100" width="600" height="300" stroke="#333" stroke-width="3" fill="#ddd" rx="5"/>
+  <text x="400" y="90" font-family="Arial" font-size="16" text-anchor="middle">Full Sensor (2592×1944)</text>
+ 
+  <!-- Pixel grid lines - vertical -->
+  <g stroke="#aaa" stroke-width="1">
+    <line x1="150" y1="100" x2="150" y2="400"/>
+    <line x1="200" y1="100" x2="200" y2="400"/>
+    <line x1="250" y1="100" x2="250" y2="400"/>
+    <line x1="300" y1="100" x2="300" y2="400"/>
+    <line x1="350" y1="100" x2="350" y2="400"/>
+    <line x1="400" y1="100" x2="400" y2="400"/>
+    <line x1="450" y1="100" x2="450" y2="400"/>
+    <line x1="500" y1="100" x2="500" y2="400"/>
+    <line x1="550" y1="100" x2="550" y2="400"/>
+    <line x1="600" y1="100" x2="600" y2="400"/>
+    <line x1="650" y1="100" x2="650" y2="400"/>
+  </g>
+ 
+  <!-- Pixel grid lines - horizontal -->
+  <g stroke="#aaa" stroke-width="1">
+    <line x1="100" y1="150" x2="700" y2="150"/>
+    <line x1="100" y1="200" x2="700" y2="200"/>
+    <line x1="100" y1="250" x2="700" y2="250"/>
+    <line x1="100" y1="300" x2="700" y2="300"/>
+    <line x1="100" y1="350" x2="700" y2="350"/>
+  </g>
+ 
+  <!-- Window Mode Area (1296×972) -->
+  <rect x="250" y="150" width="300" height="150" stroke="#e74c3c" stroke-width="5" fill="rgba(231, 76, 60, 0.3)" rx="5"/>
+  <text x="400" y="140" font-family="Arial" font-size="16" text-anchor="middle" fill="#e74c3c">Window Mode (1296×972)</text>
+  
+  <!-- Active pixels (used) -->
+  <text x="400" y="170" font-family="Arial" font-size="14" text-anchor="middle">Active Pixels (Used)</text>
+  
+  <!-- Inactive pixels (unused) -->
+  <!-- Top unused area -->
+  <rect x="100" y="100" width="600" height="50" fill="rgba(100, 100, 100, 0.5)" stroke="none"/>
+  
+  <!-- Bottom unused area -->
+  <rect x="100" y="300" width="600" height="100" fill="rgba(100, 100, 100, 0.5)" stroke="none"/>
+  
+  <!-- Left unused area -->
+  <rect x="100" y="150" width="150" height="150" fill="rgba(100, 100, 100, 0.5)" stroke="none"/>
+  
+  <!-- Right unused area -->
+  <rect x="550" y="150" width="150" height="150" fill="rgba(100, 100, 100, 0.5)" stroke="none"/>
+  
+  <!-- FOV indicators -->
+  <path d="M 400 400 L 300 480 L 500 480 Z" fill="rgba(52, 152, 219, 0.1)" stroke="#3498db" stroke-width="2"/>
+  <text x="400" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#3498db">20° Horizontal FOV</text>
+  
+  <path d="M 700 250 L 780 180 L 780 320 Z" fill="rgba(52, 152, 219, 0.1)" stroke="#3498db" stroke-width="2"/>
+  <text x="750" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#3498db" transform="rotate(90,750,250)">20° Vertical FOV</text>
+ 
+  <!-- Legend -->
+  <rect x="150" y="430" width="20" height="20" fill="#ddd" stroke="#333"/>
+  <text x="180" y="445" font-family="Arial" font-size="14" text-anchor="start">Full Sensor Area (2592×1944 pixels)</text>
+ 
+  <rect x="400" y="430" width="20" height="20" fill="rgba(231, 76, 60, 0.3)" stroke="#e74c3c" stroke-width="2"/>
+  <text x="430" y="445" font-family="Arial" font-size="14" text-anchor="start">Window Mode - Used Pixels (1296×972)</text>
+  
+  <rect x="150" y="460" width="20" height="20" fill="rgba(100, 100, 100, 0.5)" stroke="none"/>
+  <text x="180" y="475" font-family="Arial" font-size="14" text-anchor="start">Unused Pixels (75% of sensor area)</text>
+ 
+  <!-- Pixel Usage Stats -->
+  <rect x="30" y="180" width="200" height="120" fill="white" stroke="#333" stroke-width="1" rx="5"/>
+  <text x="130" y="200" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">Pixel Usage Statistics:</text>
+  <text x="40" y="220" font-family="Arial" font-size="12" text-anchor="start">• Total pixels: 5,038,848</text>
+  <text x="40" y="240" font-family="Arial" font-size="12" text-anchor="start">• Used pixels: 1,259,712 (25%)</text>
+  <text x="40" y="260" font-family="Arial" font-size="12" text-anchor="start">• Unused pixels: 3,779,136 (75%)</text>
+  <text x="40" y="280" font-family="Arial" font-size="12" text-anchor="start">• Maintains 20° FOV</text>
+</svg>
