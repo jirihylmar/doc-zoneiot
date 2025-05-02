@@ -44,16 +44,38 @@ Purpose:
 [Variables and Formulas](/development_common/limits_calculations_power_consumption#variables-and-formulas) *refDoc*
 [Very High Traffic](/development_common/limits_calculations_power_consumption#very-high-traffic) *refDoc*
 [Very Low Traffic](/development_common/limits_calculations_power_consumption#very-low-traffic) *refDoc*
-[Current Speed Analysis (30.0 km/h)](/development_common/limits_calculations_storage_and_motion#current-speed-analysis-(30.0-km/h)) *refDoc*
+[ESP32 Camera Sensor Comparison](/development_common/limits_calculations_storage_and_motion#esp32-camera-sensor-comparison) *refDoc*
+[Example Speed Analysis (30.0 km/h)](/development_common/limits_calculations_storage_and_motion#example-speed-analysis-(30.0-km/h)) *refDoc*
+[Factors Affecting License Plate Readability:](/development_common/limits_calculations_storage_and_motion#factors-affecting-license-plate-readability:) *refDoc*
 [Image Configuration](/development_common/limits_calculations_storage_and_motion#image-configuration) *refDoc*
 [Image Size](/development_common/limits_calculations_storage_and_motion#image-size) *refDoc*
+[Implementation Recommendations](/development_common/limits_calculations_storage_and_motion#implementation-recommendations) *refDoc*
+[License Plate Readability](/development_common/limits_calculations_storage_and_motion#license-plate-readability) *refDoc*
 [Limits Calculation Storage and Motion](/development_common/limits_calculations_storage_and_motion#limits-calculation-storage-and-motion) *refDoc*
 [Motion Analysis](/development_common/limits_calculations_storage_and_motion#motion-analysis) *refDoc*
 [Motion Configuration](/development_common/limits_calculations_storage_and_motion#motion-configuration) *refDoc*
-[Speed Scenario Analysis](/development_common/limits_calculations_storage_and_motion#speed-scenario-analysis) *refDoc*
+[OV3660 Implementation](/development_common/limits_calculations_storage_and_motion#ov3660-implementation) *refDoc*
+[OV5640 Implementation](/development_common/limits_calculations_storage_and_motion#ov5640-implementation) *refDoc*
+[Power Consumption Analysis](/development_common/limits_calculations_storage_and_motion#power-consumption-analysis) *refDoc*
 [Storage Capacity](/development_common/limits_calculations_storage_and_motion#storage-capacity) *refDoc*
 [Storage Capacity Analysis](/development_common/limits_calculations_storage_and_motion#storage-capacity-analysis) *refDoc*
 [Storage Configuration](/development_common/limits_calculations_storage_and_motion#storage-configuration) *refDoc*
+[Trade-offs Consideration](/development_common/limits_calculations_storage_and_motion#trade-offs-consideration) *refDoc*
+[Window Mode Considerations](/development_common/limits_calculations_storage_and_motion#window-mode-considerations) *refDoc*
+[Camera Sensor Limits](/development_common/limits_cameras#camera-sensor-limits) *refDoc*
+[Camera Sensors for ESP32](/development_common/limits_cameras#camera-sensors-for-esp32) *refDoc*
+[Camera Specifications Analysis](/development_common/limits_cameras#camera-specifications-analysis) *refDoc*
+[Distance Calculation](/development_common/limits_cameras#distance-calculation) *refDoc*
+[Drawings](/development_common/limits_cameras#drawings) *refDoc*
+[Existing Products Examples](/development_common/limits_cameras#existing-products-examples) *refDoc*
+[Implementation Recommendations](/development_common/limits_cameras#implementation-recommendations) *refDoc*
+[License Plate Readability](/development_common/limits_cameras#license-plate-readability) *refDoc*
+[License Plate Readability Requirements](/development_common/limits_cameras#license-plate-readability-requirements) *refDoc*
+[Limits Cameras](/development_common/limits_cameras#limits-cameras) *refDoc*
+[Performance Expectations with 5MP Sensor](/development_common/limits_cameras#performance-expectations-with-5mp-sensor) *refDoc*
+[Practical Limitations](/development_common/limits_cameras#practical-limitations) *refDoc*
+[Real-world Maximum Distance](/development_common/limits_cameras#real-world-maximum-distance) *refDoc*
+[Window View](/development_common/limits_cameras#window-view) *refDoc*
 [AWS IoT Core Integration](/development_common/platform_comparison_for_iot_deployments#aws-iot-core-integration) *refDoc*
 [Base Specifications](/development_common/platform_comparison_for_iot_deployments#base-specifications) *refDoc*
 [Conclusion](/development_common/platform_comparison_for_iot_deployments#conclusion) *refDoc*
@@ -129,6 +151,11 @@ Purpose:
 [ZoneIoT Naming Conventions](/development_common/zoneiot_naming_conventions#zoneiot-naming-conventions) *refDoc*
 [Develop ESP32 Samples](/development_devices/develop_esp32_samples#develop-esp32-samples) *refDoc*
 [Introduction Develop ESP32 Samples](/development_devices/develop_esp32_samples#introduction-develop-esp32-samples) *refDoc*
+[Changes & Updates](/development_devices/lambda_testing#changes-&-updates) *refDoc*
+[Comparison: MQTT vs. HTTP](/development_devices/lambda_testing#comparison:-mqtt-vs.-http) *refDoc*
+[Introduction - Minimal Parameters of Devices](/development_devices/lambda_testing#introduction---minimal-parameters-of-devices) *refDoc*
+[Minimal Parameters of Devices](/development_devices/lambda_testing#minimal-parameters-of-devices) *refDoc*
+[Observations & Notes](/development_devices/lambda_testing#observations-&-notes) *refDoc*
 [1280x960 px](/development_devices/minimal_parameters_of_devices#1280x960-px) *refDoc*
 [320x240 px](/development_devices/minimal_parameters_of_devices#320x240-px) *refDoc*
 [640x480 px](/development_devices/minimal_parameters_of_devices#640x480-px) *refDoc*

@@ -10,6 +10,10 @@ repo_url: https://github.com/jirihylmar/doc-zoneiot
 # Copyright
 copyright: Copyright by VSB – Technical University of Ostrava. All Rights Reserved. Read our <a href='https://www.vsb.cz/en/university/official-notice-board/processing-of-personal-data/' target='_blank'>Privacy Policy</a>.
 
+validation:
+  links:
+    absolute_links: ignore  # Changes warnings to be ignored
+
 theme:
   name: material
   custom_dir: 'docs/theme'
