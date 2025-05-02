@@ -12,7 +12,7 @@ Created: 2025-03-02 08:04:45
 Master: ~/doc-zoneiot/docs/development_common/esp_camera_implementation.md
 Contributors: :team_jirihylmar
 Purpose:
-- Efficient us of cameras resolution
+- Efficient use of cameras resolution
 ```
 
 # Limits Cameras
