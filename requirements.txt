@@ -5,6 +5,7 @@ mkdocs-git-revision-date-localized-plugin
 git+https://github.com/aleksan4eg/markdown-lightbox.git
 boto3
 mkdocstrings
+mkdocstrings-python
 mkdocs-include-markdown-plugin
 mkdocs-gen-files
 mkdocs-bibtex
